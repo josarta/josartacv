@@ -8,14 +8,14 @@
 ## 1. Grounded Technical Copy (Anti-AI Jargon)
 
 ### Spanish (ES)
-- **Titular Principal**: *"Ingeniería en Sistemas de Control y Misión Crítica aplicada a Inteligencia Artificial en Producción."*
-- **Subtítulo**: *"Senior Software Expert & Service Reliability Lead, maestrando en IA e Ingeniero en Control Electrónico. Especializado en resiliencia de alta disponibilidad (99.99% SLA), pipelines RAG agénticos y optimización de sistemas deterministas."*
-- **Status Indicator**: `SISTEMAS DISTRIBUIDOS • SRE EN BANCA CRÍTICA • ARQUITECTURAS AGÉNTICAS`
+- **Titular Principal**: *"Rigor de Sistemas de Control aplicado a Inteligencia Artificial en Producción."*
+- **Subtítulo**: *"Senior Software Expert & SRE Lead, MSc en IA e Ingeniero en Control Electrónico. Diseñando sistemas distribuidos de ultra-alta disponibilidad (99.99% SLA), pipelines agénticos de baja latencia y arquitecturas de IA deterministas a escala."*
+- **Status Indicator**: `• ARQUITECTURA DE SISTEMAS IA • SRE DE MISIÓN CRÍTICA • FLUJOS AGÉNTICOS`
 
 ### English (EN)
-- **Primary Headline**: *"Engineering Mission-Critical Control Systems for Production Artificial Intelligence."*
-- **Subheadline**: *"Senior Software Expert & Service Reliability Lead with an MSc in AI and an Electronic Control Engineering foundation. Specialized in high-availability financial SRE (99.99% SLA), multi-agent RAG ecosystems, and deterministic systems optimization."*
-- **Status Indicator**: `DISTRIBUTED SYSTEMS • TIER-1 FINANCIAL SRE • AGENTIC ARCHITECTURES`
+- **Primary Headline**: *"Bridging Control Systems Rigor with Frontier AI in Production."*
+- **Subheadline**: *"Senior Software Expert & SRE Lead with an MSc in AI and an Electronic Control Engineering foundation. Architecting ultra-reliable, high-throughput distributed systems (99.99% SLA), low-latency agentic pipelines, and deterministic AI architectures at scale."*
+- **Status Indicator**: `• AI SYSTEMS ARCHITECTURE • MISSION-CRITICAL SRE • AGENTIC WORKFLOWS`
 
 ---
 

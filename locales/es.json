@@ -13,18 +13,18 @@
     "status": "OPERACIONAL"
   },
   "hero": {
-    "statusIndicator": "SISTEMAS DISTRIBUIDOS • SRE EN BANCA CRÍTICA • ARQUITECTURAS AGÉNTICAS",
+    "statusIndicator": "ARQUITECTURA DE SISTEMAS IA • SRE DE MISIÓN CRÍTICA • FLUJOS AGÉNTICOS",
     "telemetry": {
       "systemState": "ESTABLE",
       "uptime": "99.99%",
       "latency": "< 12ms",
       "aiDomain": "Maestría en IA @ UniAndes"
     },
-    "headlinePrefix": "Ingeniería en",
-    "headlineControl": "Sistemas de Control y Misión Crítica",
-    "headlineMiddle": "aplicada a",
+    "headlinePrefix": "",
+    "headlineControl": "Rigor de Sistemas de Control",
+    "headlineMiddle": "aplicado a",
     "headlineAI": "Inteligencia Artificial en Producción",
-    "subheadline": "Senior Software Expert & Service Reliability Lead, maestrando en IA e Ingeniero en Control Electrónico. Especializado en resiliencia de alta disponibilidad (99.99% SLA), pipelines RAG agénticos y optimización de sistemas deterministas.",
+    "subheadline": "Senior Software Expert & SRE Lead, MSc en IA e Ingeniero en Control Electrónico. Diseñando sistemas distribuidos de ultra-alta disponibilidad (99.99% SLA), pipelines agénticos de baja latencia y arquitecturas de IA deterministas a escala.",
     "ctaExecutiveCV": "Resumen Ejecutivo (PDF)",
     "ctaProjects": "Ver Arquitecturas de Producción",
     "ctaSchedule": "Agendar Entrevista Técnica",

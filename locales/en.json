@@ -13,18 +13,18 @@
     "status": "OPERATIONAL"
   },
   "hero": {
-    "statusIndicator": "DISTRIBUTED SYSTEMS • TIER-1 FINANCIAL SRE • AGENTIC ARCHITECTURES",
+    "statusIndicator": "AI SYSTEMS ARCHITECTURE • MISSION-CRITICAL SRE • AGENTIC WORKFLOWS",
     "telemetry": {
       "systemState": "STABLE",
       "uptime": "99.99%",
       "latency": "< 12ms",
       "aiDomain": "MSc in AI @ UniAndes"
     },
-    "headlinePrefix": "Engineering",
-    "headlineControl": "Mission-Critical Control Systems",
-    "headlineMiddle": "for",
-    "headlineAI": "Production Artificial Intelligence",
-    "subheadline": "Senior Software Expert & Service Reliability Lead with an MSc in AI and an Electronic Control Engineering foundation. Specialized in high-availability financial SRE (99.99% SLA), multi-agent RAG ecosystems, and deterministic systems optimization.",
+    "headlinePrefix": "Bridging",
+    "headlineControl": "Control Systems Rigor",
+    "headlineMiddle": "with",
+    "headlineAI": "Frontier AI in Production",
+    "subheadline": "Senior Software Expert & SRE Lead with an MSc in AI and an Electronic Control Engineering foundation. Architecting ultra-reliable, high-throughput distributed systems (99.99% SLA), low-latency agentic pipelines, and deterministic AI architectures at scale.",
     "ctaExecutiveCV": "Executive Summary (PDF)",
     "ctaProjects": "View Production Architectures",
     "ctaSchedule": "Schedule Technical Interview",

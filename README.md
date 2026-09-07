@@ -41,3 +41,4 @@ Open `http://localhost:3000` in your browser.
 
 ## 📄 License
 MIT © 2026 José Luis Sarta Álvarez
+
