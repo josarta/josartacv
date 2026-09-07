@@ -4,14 +4,13 @@
  */
 
 export class ProjectsController {
-  constructor(containerId, i18nManager) {
-    this.container = document.getElementById(containerId);
+  constructor(containerId = 'projects', i18nManager) {
+    this.container = document.getElementById(containerId) || document.getElementById('projects') || document.body;
     this.i18n = i18nManager;
     this.currentFilter = 'all';
-    if (!this.container) return;
 
-    this.cardsContainer = this.container.querySelector('#projects-grid');
-    this.filterButtons = this.container.querySelectorAll('.filter-pill');
+    this.cardsContainer = this.container.querySelector('#projects-grid') || document.getElementById('projects-grid');
+    this.filterContainer = this.container.querySelector('#projects-filter') || document.getElementById('projects-filter');
 
     this.init();
   }
@@ -22,29 +21,41 @@ export class ProjectsController {
 
     window.addEventListener('languageChanged', () => {
       this.render();
+      this.updateFilterButtonsUI();
     });
   }
 
   setupFilters() {
-    this.filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const filter = btn.getAttribute('data-filter');
+    const buttons = document.querySelectorAll('#projects-filter .filter-pill, .filter-pill');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const filter = btn.getAttribute('data-filter') || 'all';
         this.currentFilter = filter;
-
-        this.filterButtons.forEach(b => {
-          b.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
-          b.classList.add('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
-        });
-
-        btn.classList.remove('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
-        btn.classList.add('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
-
+        this.updateFilterButtonsUI();
         this.render();
       });
     });
   }
 
+  updateFilterButtonsUI() {
+    const buttons = document.querySelectorAll('#projects-filter .filter-pill, .filter-pill');
+    buttons.forEach(btn => {
+      const filter = btn.getAttribute('data-filter') || 'all';
+      if (filter === this.currentFilter) {
+        btn.classList.remove('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
+        btn.classList.add('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
+      } else {
+        btn.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
+        btn.classList.add('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
+      }
+    });
+  }
+
   render() {
+    if (!this.cardsContainer) {
+      this.cardsContainer = document.getElementById('projects-grid');
+    }
     if (!this.cardsContainer) return;
 
     const items = this.i18n.t('projects.items');
@@ -54,16 +65,17 @@ export class ProjectsController {
       ? items 
       : items.filter(p => p.category === this.currentFilter);
 
-    const clonePromptText = this.i18n.t('projects.clonePrompt');
-    const copiedText = this.i18n.t('projects.copied');
+    const clonePromptText = this.i18n.t('projects.clonePrompt') || 'Copy Git Clone';
+    const copiedText = this.i18n.t('projects.copied') || 'Copied!';
+    const inspectText = this.i18n.t('projects.inspect') || 'Inspect Architecture';
 
     this.cardsContainer.innerHTML = filtered.map(item => `
-      <div class="spotlight-card glass-panel p-5 sm:p-7 flex flex-col justify-between relative group border border-white/10" data-reveal-item>
+      <div class="spotlight-card glass-panel p-5 sm:p-7 flex flex-col justify-between relative group border border-white/10 rounded-2xl transition-all" data-reveal-item>
         <div>
           <!-- Header & Badge -->
           <div class="flex items-center justify-between gap-2 mb-3">
             <span class="px-2.5 py-0.5 text-xs font-mono font-medium rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-              #${item.category.toUpperCase()}
+              #${(item.category || 'SYSTEM').toUpperCase()}
             </span>
             <a href="${item.repoUrl}" target="_blank" rel="noopener noreferrer" 
                class="text-xs font-mono text-zinc-400 hover:text-white flex items-center gap-1 transition-colors">
@@ -102,7 +114,7 @@ export class ProjectsController {
             </p>
             
             <div class="text-[9px] font-mono uppercase text-zinc-500 mb-1">System Pipeline Flow:</div>
-            <div class="ascii-flow text-[10px] sm:text-[11px] p-2 overflow-x-auto rounded border border-zinc-800/80 text-sky-300 leading-normal">
+            <div class="ascii-flow text-[10px] sm:text-[11px] p-2 overflow-x-auto rounded border border-zinc-800/80 text-sky-300 leading-normal font-mono">
               ${item.architectureFlow}
             </div>
           </div>
@@ -131,7 +143,7 @@ export class ProjectsController {
 
         <!-- Action Footer -->
         <div class="pt-3.5 border-t border-white/5 flex flex-wrap items-center justify-between gap-2.5">
-          <button class="copy-clone-btn text-xs font-mono px-3 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-700/60 flex items-center gap-1.5 transition-all"
+          <button class="copy-clone-btn text-xs font-mono px-3 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-700/60 flex items-center gap-1.5 transition-all cursor-pointer"
                   data-cmd="${item.cloneCmd}">
             <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
@@ -141,7 +153,7 @@ export class ProjectsController {
 
           <a href="${item.repoUrl}" target="_blank" rel="noopener noreferrer"
              class="text-xs font-semibold px-3.5 py-1.5 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 flex items-center gap-1 transition-all">
-            <span>Inspect Architecture</span>
+            <span>${inspectText}</span>
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>

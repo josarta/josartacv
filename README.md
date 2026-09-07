@@ -1,6 +1,6 @@
 # José Luis Sarta Álvarez — Engineering Portfolio & Technical Dossier
 
-> **Senior Software Expert & Service Reliability Lead | MSc in Artificial Intelligence Candidate (UniAndes) | Electronic Control Engineer**
+> **Senior SRE Lead & AI Systems Engineer | MSc in Artificial Intelligence Candidate (UniAndes) | Electronic Control Engineer**
 
 [![Live Demo](https://img.shields.io/badge/Live_Portfolio-Netlify-00f5a0?style=for-the-badge&logo=netlify&logoColor=black)](https://josartacv.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-josarta-00d9f5?style=for-the-badge&logo=github&logoColor=black)](https://github.com/josarta)
@@ -8,9 +8,9 @@
 
 ---
 
-## ⚡ Positioning & The Hybrid Edge
+## ⚡ Positioning: "From Reliable Systems to Reliable AI"
 
-Bridging the mathematical rigor of **Electronic Control Systems** (dynamical systems, Lyapunov stability, real-time sensor telemetry, and 99.99% financial SRE) with **Frontier Artificial Intelligence** (Agentic RAG, hybrid semantic/BM25 retrieval, Physics-Informed Neural Networks, LLM quantization, and MLOps).
+Bridging the mathematical rigor of **Electronic Control Engineering** (dynamical systems, Lyapunov stability, real-time sensor telemetry) with **Senior SRE Leadership** (platform stability, driving automation, aligning infrastructure reliability with business goals in mission-critical platforms with millions of recurring users) and **Frontier Artificial Intelligence** (Agentic RAG, hybrid semantic/BM25 retrieval, Physics-Informed Neural Networks, and MLOps).
 
 ---
 

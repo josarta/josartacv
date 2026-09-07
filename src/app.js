@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   new ContentSectionsController(i18n);
 
   // 6. Initialize Featured Case Studies Engine
-  new ProjectsController('projects-section', i18n);
+  new ProjectsController('projects', i18n);
 
   // 7. Initialize Systems Reliability Timeline
   new TimelineController('timeline-container', i18n);

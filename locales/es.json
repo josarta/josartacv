@@ -15,18 +15,23 @@
     "status": "OPERACIONAL"
   },
   "hero": {
-    "statusIndicator": "INGENIERÍA DE SISTEMAS IA • SRE • AUTOMATIZACIÓN INTELIGENTE",
+    "statusIndicator": "INGENIERÍA DE SISTEMAS IA • SRE LEAD • AUTOMATIZACIÓN INTELIGENTE",
     "taglineConcept": "De Sistemas Confiables a IA Confiable.",
+    "portrait": {
+      "status": "ONLINE",
+      "sla": "ALTA DISPONIBILIDAD",
+      "degree": "MSc IA"
+    },
     "telemetry": {
       "systemState": "ESTABLE",
-      "uptime": "99.99%",
-      "latency": "P99 < 12ms",
-      "aiDomain": "Maestría en IA @ UniAndes"
+      "uptime": "Alta Disp.",
+      "latency": "Baja Latencia",
+      "aiDomain": "MSc en IA @ UniAndes"
     },
     "headlinePrefix": "Construyendo",
     "headlineHighlight": "Sistemas de IA",
     "headlineSuffix": "que Funcionan en Producción.",
-    "subheadline": "AI Systems Engineer & SRE creando IA confiable, automatización inteligente y software escalable — combinando Python, Machine Learning, LLMs, flujos agénticos, sistemas distribuidos y confiabilidad en producción.",
+    "subheadline": "Senior SRE Lead & AI Systems Engineer. Lidero la estabilidad de plataformas transaccionales de alto tráfico, impulso la automatización y alineo la confiabilidad de la infraestructura con los objetivos del negocio — uniendo Machine Learning, LLMs, flujos agénticos, observabilidad y rigor de ingeniería en producción.",
     "stackPills": ["Ingeniería de IA", "LLMs & Agentes", "RAG Híbrido", "MLOps", "SRE Distribuido", "Sistemas de Control"],
     "ctaExplore": "Explorar Mis Proyectos IA",
     "ctaArchitecture": "Ver Casos de Arquitectura",
@@ -35,7 +40,7 @@
     "terminal": {
       "header": "sarta@core-system: ~/telemetria",
       "line1": "INICIALIZANDO AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "MONITOREO DE SISTEMAS FINANCIEROS (SLA: 99.99%)... [SINCRONIZADO]",
+      "line2": "SUPERVISIÓN DE PLATAFORMAS CRÍTICAS (ALTA DISPONIBILIDAD)... [SINCRONIZADO]",
       "line3": "CARGANDO ORQUESTACIÓN MULTI-AGENTE & EVALUACIÓN... [ACTIVO]",
       "line4": "SISTEMA LISTO: De sistemas confiables a inteligencia artificial confiable."
     }
@@ -43,7 +48,7 @@
   "whatIBuild": {
     "tag": "ESPECIALIZACIÓN CENTRAL",
     "title": "Qué Construyo",
-    "description": "Uniendo el ciclo completo de ingeniería de software con inteligencia artificial de vanguardia.",
+    "description": "Uniendo el ciclo completo de ingeniería de software con inteligencia artificial de vanguardia y confiabilidad operativa.",
     "pillars": [
       {
         "id": "agents",
@@ -70,7 +75,7 @@
         "id": "sre",
         "title": "Software Confiable & SRE",
         "badge": "ALTA DISPONIBILIDAD",
-        "description": "Microservicios distribuidos, procesamiento financiero transaccional, observabilidad con OpenTelemetry y SLAs de disponibilidad del 99.99%.",
+        "description": "Gobernanza de estabilidad en plataformas con alto volumen de usuarios recurrentes, microservicios distribuidos, observabilidad OpenTelemetry y reducción de toil mediante automatización.",
         "pills": ["SRE Distribuido", "Observabilidad (OTel/Prom)", "Gestión de Incidentes", "Java / Python / C#"]
       }
     ]
@@ -83,9 +88,9 @@
       "sre": {
         "badge": "MISIÓN CRÍTICA",
         "title": "De Sistemas Confiables a IA Confiable",
-        "metric": "99.99%",
-        "metricLabel": "SLA en Producción Financiera Mantenido",
-        "description": "Service Reliability Lead gobernando plataformas bancarias de alto flujo (Net Cash, SENDA). Aplicando rigor en sistemas distribuidos y observabilidad a cargas de trabajo de IA.",
+        "metric": "Alta Disp.",
+        "metricLabel": "Plataformas con Millones de Usuarios Recurrentes",
+        "description": "Como Service Reliability Lead (SRE), soy responsable de supervisar la estabilidad de la plataforma, impulsar la automatización y alinear la confiabilidad de la infraestructura con los objetivos de negocio en canales bancarios de alto tráfico (Net Cash, SENDA).",
         "pills": ["Gobernanza SRE", "OpenTelemetry", "Ingeniería de Resiliencia", "Manejo de Incidentes"]
       },
       "control": {
@@ -105,11 +110,11 @@
         "pills": ["Deep Learning", "Sistemas Multi-Agente", "Optimización", "Ética en IA"]
       },
       "artifacts": {
-        "badge": "ARTEFACTOS CURADOS",
-        "title": "Repositorios de Ingeniería Curados",
-        "metric": "8 Curados",
+        "badge": "ARQUITECTURAS DE REFERENCIA",
+        "title": "Repositorios y Arquitecturas de Referencia",
+        "metric": "8 Proyectos",
         "metricLabel": "Seleccionados de 60+ Repositorios",
-        "description": "Arquitecturas inspiradas en producción: terminales agénticas offline, suites de re-entrenamiento continuo MLOps y optimizadores de lazos dinámicos de control.",
+        "description": "Arquitecturas inspiradas en producción real: terminales agénticas offline, suites de re-entrenamiento continuo MLOps y optimizadores de lazos dinámicos de control.",
         "pills": ["Arquitectura Limpia", "Indexación AST", "Pipelines CI/CD", "Diseño Modular"]
       }
     }
@@ -152,7 +157,7 @@
       {
         "step": "07",
         "title": "CONFIABILIDAD",
-        "desc": "SLO 99.99%, Recuperación de Fallos, Rate Limiting & Probes"
+        "desc": "Alta Disponibilidad, Recuperación de Fallos, Rate Limiting & Probes"
       }
     ]
   },
@@ -168,6 +173,7 @@
     },
     "clonePrompt": "Copiar Git Clone",
     "copied": "¡Copiado!",
+    "inspect": "Examinar Arquitectura",
     "items": [
       {
         "id": "agentic-rag-engine",
@@ -257,7 +263,7 @@
   "timeline": {
     "tag": "TRAYECTORIA EN PRODUCCIÓN",
     "title": "Experiencia en Producción & Liderazgo de Sistemas",
-    "description": "Más de 15 años de experiencia verificada en ingeniería de software, SRE financiero de misión crítica y liderazgo en sistemas inteligentes.",
+    "description": "Más de 15 años de experiencia verificada en ingeniería de software, liderazgo técnico en SRE financiero de misión crítica y sistemas inteligentes.",
     "roles": [
       {
         "period": "AGO 2024 — PRESENTE",
@@ -266,9 +272,9 @@
         "location": "Bogotá, Colombia",
         "domain": "Banca Digital & Canales Corporativos",
         "highlights": [
-          "Liderazgo directo sobre la disponibilidad y confiabilidad de plataformas financieras corporativas críticas (Net Cash, SENDA).",
-          "Automatización de detección de incidentes y telemetría de latencia, manteniendo disponibilidad del 99.99%.",
-          "Puente técnico principal entre la arquitectura de infraestructura, operaciones y seguridad bancaria."
+          "Liderazgo técnico senior responsable de supervisar la estabilidad de la plataforma, impulsar la automatización y alinear la confiabilidad con los objetivos de negocio.",
+          "Supervisión directa de la disponibilidad en canales corporativos críticos (Net Cash, SENDA) con millones de usuarios y operaciones recurrentes.",
+          "Implementación de telemetría en tiempo real, observabilidad avanzada y reducción sistemática de incidentes operativos."
         ]
       },
       {
@@ -290,8 +296,8 @@
         "location": "Buenos Aires / Bogotá",
         "domain": "Plataforma de Comercio Electrónico de Alto Tráfico",
         "highlights": [
-          "Desarrollo de microservicios distribuidos e interfaces reactivas soportando millones de transacciones diarias.",
-          "Integración de APIs backend resilientes (Java / Spring) con frontends en React bajo estrictos SLAs de latencia.",
+          "Desarrollo de microservicios distribuidos e interfaces reactivas soportando millones de transacciones y usuarios concurrentes diarios.",
+          "Integración de APIs backend resilientes (Java / Spring) con frontends en React bajo estrictos estándares de disponibilidad y baja latencia.",
           "Liderazgo en resolución de incidencias complejas y fortalecimiento de resiliencia entre servicios."
         ]
       },
@@ -331,9 +337,9 @@
     "modal": {
       "title": "Informe Técnico Ejecutivo",
       "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | Candidato a Magíster en IA",
-      "summary": "Más de 15 años de trayectoria en ingeniería de software y sistemas, conectando de forma única la Ingeniería en Control Electrónico con la Inteligencia Artificial moderna. Líder comprobado en SRE financiero Tier-1 (99.99% SLA), IA agéntica y confiabilidad de sistemas en producción.",
+      "summary": "Senior Technical Leader y AI Systems Engineer con más de 15 años de trayectoria. Combino la rigurosidad de la Ingeniería en Control Electrónico con la Inteligencia Artificial y el liderazgo SRE en plataformas financieras con millones de usuarios recurrentes. Especializado en estabilidad, automatización y confiabilidad en producción.",
       "metrics": [
-        { "value": "99.99%", "label": "SLA en Producción" },
+        { "value": "Alta Disp.", "label": "Plataformas Críticas" },
         { "value": "15+ Años", "label": "Experiencia en Sistemas" },
         { "value": "MSc IA", "label": "UniAndes (2025–2026)" },
         { "value": "Ing.", "label": "Control Electrónico" }
@@ -360,8 +366,8 @@
       ],
       "skillsMatrix": {
         "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluación & Trazas",
-        "systems": "SRE Distribuido, Service Reliability, Java/Spring, Python, C#, C++, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Control en Lazo Cerrado, PID/MPC, Estabilidad Lyapunov, MicroPython/C++, Cinemática & Fabricación 3D"
+        "systems": "SRE Lead, Alta Disponibilidad, Automatización, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
+        "control": "Control en Lazo Cerrado, PID/MPC, Estabilidad Lyapunov, MicroPython/C++, Cinemática & Telemetría"
       },
       "directContact": {
         "email": "josarta@gmail.com",

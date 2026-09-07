@@ -15,18 +15,23 @@
     "status": "OPERATIONAL"
   },
   "hero": {
-    "statusIndicator": "AI SYSTEMS ENGINEERING • SRE • INTELLIGENT AUTOMATION",
+    "statusIndicator": "AI SYSTEMS ENGINEERING • SRE LEAD • INTELLIGENT AUTOMATION",
     "taglineConcept": "From Reliable Systems to Reliable AI.",
+    "portrait": {
+      "status": "ONLINE",
+      "sla": "HIGH AVAILABILITY",
+      "degree": "MSc AI"
+    },
     "telemetry": {
       "systemState": "STABLE",
-      "uptime": "99.99%",
-      "latency": "P99 < 12ms",
+      "uptime": "High Avail.",
+      "latency": "Low Latency",
       "aiDomain": "MSc in AI @ UniAndes"
     },
     "headlinePrefix": "Building",
     "headlineHighlight": "AI Systems",
     "headlineSuffix": "That Work in Production.",
-    "subheadline": "AI Systems Engineer & SRE building reliable AI, intelligent automation and scalable software — combining Python, Machine Learning, LLMs, agentic workflows, distributed systems and production reliability.",
+    "subheadline": "Senior SRE Lead & AI Systems Engineer. Overseeing platform stability for high-traffic financial systems, driving automation, and aligning infrastructure reliability with business goals — bridging Machine Learning, LLMs, agentic workflows, distributed telemetry, and production engineering rigor.",
     "stackPills": ["AI Engineering", "LLMs & Agents", "Hybrid RAG", "MLOps", "Distributed SRE", "Control Systems"],
     "ctaExplore": "Explore My AI Work",
     "ctaArchitecture": "View Architecture",
@@ -35,7 +40,7 @@
     "terminal": {
       "header": "sarta@core-system: ~/telemetry",
       "line1": "INITIALIZING AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "CONNECTING PRODUCTION TELEMETRY (SLA: 99.99%)... [SYNCHRONIZED]",
+      "line2": "MONITORING CRITICAL PLATFORMS (HIGH AVAILABILITY)... [SYNCHRONIZED]",
       "line3": "LOADING MULTI-AGENT ORCHESTRATION & EVALUATION PIPELINES... [ACTIVE]",
       "line4": "SYSTEM READY: From reliable systems to reliable AI."
     }
@@ -43,7 +48,7 @@
   "whatIBuild": {
     "tag": "CORE SPECIALIZATION",
     "title": "What I Build",
-    "description": "Bridging full-lifecycle software engineering with modern artificial intelligence.",
+    "description": "Bridging full-lifecycle software engineering with modern artificial intelligence and operational reliability.",
     "pillars": [
       {
         "id": "agents",
@@ -70,7 +75,7 @@
         "id": "sre",
         "title": "Reliable Software & SRE",
         "badge": "HIGH AVAILABILITY",
-        "description": "Distributed microservices, high-throughput financial backends, OpenTelemetry observability, and 99.99% availability SLAs.",
+        "description": "Platform stability governance for high-concurrency systems, distributed microservices, OpenTelemetry observability, and automated toil reduction.",
         "pills": ["Distributed SRE", "Observability (OTel/Prom)", "Incident Governance", "Java / Python / C#"]
       }
     ]
@@ -83,9 +88,9 @@
       "sre": {
         "badge": "MISSION CRITICAL",
         "title": "From Reliable Systems to Reliable AI",
-        "metric": "99.99%",
-        "metricLabel": "Financial Production SLA Maintained",
-        "description": "Service Reliability Lead governing high-throughput banking platforms (Net Cash, SENDA). Applying distributed systems discipline and observability to production AI workloads.",
+        "metric": "High Avail.",
+        "metricLabel": "Platforms Serving Millions of Recurring Users",
+        "description": "As a Service Reliability Lead (SRE), I am responsible for overseeing platform stability, driving automation, and aligning infrastructure reliability with business goals across high-traffic digital banking channels (Net Cash, SENDA).",
         "pills": ["SRE Governance", "OpenTelemetry", "Resilience Engineering", "Incident Management"]
       },
       "control": {
@@ -105,9 +110,9 @@
         "pills": ["Deep Learning", "Multi-Agent Systems", "Optimization", "AI Ethics"]
       },
       "artifacts": {
-        "badge": "CURATED ARTIFACTS",
-        "title": "Curated Engineering Repositories",
-        "metric": "8 Curated",
+        "badge": "REFERENCE ARCHITECTURES",
+        "title": "Reference Architectures & Codebases",
+        "metric": "8 Selected",
         "metricLabel": "Selected from 60+ Repositories",
         "description": "Production-inspired architectures: autonomous agent terminals, automated MLOps retraining suites, and real-time dynamic control optimizers.",
         "pills": ["Clean Architecture", "AST Code Indexing", "CI/CD Pipelines", "Modular Design"]
@@ -152,7 +157,7 @@
       {
         "step": "07",
         "title": "RELIABILITY",
-        "desc": "99.99% SLO, Fault Recovery, Rate Limiting & Health Probes"
+        "desc": "High Availability, Fault Recovery, Rate Limiting & Health Probes"
       }
     ]
   },
@@ -168,6 +173,7 @@
     },
     "clonePrompt": "Copy Git Clone",
     "copied": "Copied!",
+    "inspect": "Inspect Architecture",
     "items": [
       {
         "id": "agentic-rag-engine",
@@ -257,7 +263,7 @@
   "timeline": {
     "tag": "PRODUCTION TRACK RECORD",
     "title": "Production Experience & Systems Leadership",
-    "description": "15+ years of verified software engineering, mission-critical financial SRE, and intelligent systems leadership.",
+    "description": "15+ years of verified software engineering, mission-critical financial SRE leadership, and intelligent systems.",
     "roles": [
       {
         "period": "AUG 2024 — PRESENT",
@@ -266,9 +272,9 @@
         "location": "Bogotá, Colombia",
         "domain": "Digital Banking & Corporate Channels",
         "highlights": [
-          "Direct leadership over availability and reliability of mission-critical corporate financial platforms (Net Cash, SENDA).",
-          "Automated incident detection and latency telemetry pipelines, consistently maintaining 99.99% availability.",
-          "Principal engineering bridge between infrastructure architecture, business operations, and banking security."
+          "Senior technical leader responsible for overseeing platform stability, driving automation, and aligning infrastructure reliability with business goals.",
+          "Direct availability leadership over mission-critical corporate financial channels (Net Cash, SENDA) serving millions of recurring users.",
+          "Engineered real-time telemetry, advanced observability pipelines, and automated incident prevention frameworks."
         ]
       },
       {
@@ -290,8 +296,8 @@
         "location": "Buenos Aires / Bogotá",
         "domain": "High-Volume E-Commerce Platform",
         "highlights": [
-          "Developed high-traffic distributed microservices and reactive interfaces supporting millions of daily transactions.",
-          "Integrated resilient backend APIs (Java / Spring) with high-speed React frontends under tight latency SLAs.",
+          "Developed high-traffic distributed microservices and reactive interfaces supporting millions of daily transactions and recurring users.",
+          "Integrated resilient backend APIs (Java / Spring) with high-speed React frontends under tight availability and latency standards.",
           "Led complex technical incident investigations and cross-service resilience enhancements."
         ]
       },
@@ -331,9 +337,9 @@
     "modal": {
       "title": "Executive Technical Briefing",
       "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | MSc in AI Candidate",
-      "summary": "15+ years of software and systems engineering excellence, uniquely bridging Electronic Control & Instrumentation with Modern Artificial Intelligence. Proven leader in Tier-1 financial SRE (99.99% SLA), Agentic AI, and production systems reliability.",
+      "summary": "Senior Technical Leader and AI Systems Engineer with 15+ years of experience. Uniquely combining Electronic Control Engineering rigor with Frontier AI and SRE leadership across financial platforms serving millions of recurring users. Specialized in platform stability, automation, and production reliability.",
       "metrics": [
-        { "value": "99.99%", "label": "Production Uptime SLA" },
+        { "value": "High Avail.", "label": "Mission-Critical Systems" },
         { "value": "15+ Yrs", "label": "Software & Systems Experience" },
         { "value": "MSc AI", "label": "UniAndes (2025–2026)" },
         { "value": "Eng.", "label": "Electronic Control & Automation" }
@@ -360,8 +366,8 @@
       ],
       "skillsMatrix": {
         "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluation & Tracing",
-        "systems": "Distributed SRE, Service Reliability, Java/Spring, Python, C#, C++, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, MicroPython/C++, Kinematics & 3D Prototyping"
+        "systems": "SRE Lead, High Availability, Automation, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
+        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, MicroPython/C++, Kinematics & Telemetry"
       },
       "directContact": {
         "email": "josarta@gmail.com",
