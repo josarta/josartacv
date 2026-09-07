@@ -1,11 +1,13 @@
 {
   "nav": {
     "title": "José Sarta",
-    "badge": "Control & SRE",
+    "badge": "AI Systems & SRE",
     "links": {
-      "overview": "Perfil",
-      "projects": "Proyectos",
+      "whatIBuild": "Qué Construyo",
+      "architecture": "Casos de Estudio",
+      "pipeline": "IA en Producción",
       "experience": "Experiencia",
+      "principles": "Principios",
       "recruiter": "Fast-Track CV"
     },
     "cta": "Contacto",
@@ -13,75 +15,154 @@
     "status": "OPERACIONAL"
   },
   "hero": {
-    "statusIndicator": "ARQUITECTURA DE SISTEMAS IA • SRE DE MISIÓN CRÍTICA • FLUJOS AGÉNTICOS",
+    "statusIndicator": "INGENIERÍA DE SISTEMAS IA • SRE • AUTOMATIZACIÓN INTELIGENTE",
+    "taglineConcept": "De Sistemas Confiables a IA Confiable.",
     "telemetry": {
       "systemState": "ESTABLE",
       "uptime": "99.99%",
-      "latency": "< 12ms",
+      "latency": "P99 < 12ms",
       "aiDomain": "Maestría en IA @ UniAndes"
     },
-    "headlinePrefix": "",
-    "headlineControl": "Rigor de Sistemas de Control",
-    "headlineMiddle": "aplicado a",
-    "headlineAI": "Inteligencia Artificial en Producción",
-    "subheadline": "Senior Software Expert & SRE Lead, MSc en IA e Ingeniero en Control Electrónico. Diseñando sistemas distribuidos de ultra-alta disponibilidad (99.99% SLA), pipelines agénticos de baja latencia y arquitecturas de IA deterministas a escala.",
-    "ctaExecutiveCV": "Resumen Ejecutivo (PDF)",
-    "ctaProjects": "Ver Arquitecturas de Producción",
-    "ctaSchedule": "Agendar Entrevista Técnica",
+    "headlinePrefix": "Construyendo",
+    "headlineHighlight": "Sistemas de IA",
+    "headlineSuffix": "que Funcionan en Producción.",
+    "subheadline": "AI Systems Engineer & SRE creando IA confiable, automatización inteligente y software escalable — combinando Python, Machine Learning, LLMs, flujos agénticos, sistemas distribuidos y confiabilidad en producción.",
+    "stackPills": ["Ingeniería de IA", "LLMs & Agentes", "RAG Híbrido", "MLOps", "SRE Distribuido", "Sistemas de Control"],
+    "ctaExplore": "Explorar Mis Proyectos IA",
+    "ctaArchitecture": "Ver Casos de Arquitectura",
+    "ctaDownloadCV": "Descargar CV",
+    "ctaTalk": "Hablemos de Sistemas de IA",
     "terminal": {
       "header": "sarta@core-system: ~/telemetria",
-      "line1": "INICIALIZANDO CONTROL_CORE v2.6.4... [OK]",
+      "line1": "INICIALIZANDO AI_SYSTEMS_CORE v3.0... [OK]",
       "line2": "MONITOREO DE SISTEMAS FINANCIEROS (SLA: 99.99%)... [SINCRONIZADO]",
-      "line3": "PIPELINE RAG AGÉNTICO & INFERENCIA LOCAL... [ACTIVO]",
-      "line4": "SISTEMA OPERACIONAL: Control determinista y modelos de IA en producción."
+      "line3": "CARGANDO ORQUESTACIÓN MULTI-AGENTE & EVALUACIÓN... [ACTIVO]",
+      "line4": "SISTEMA LISTO: De sistemas confiables a inteligencia artificial confiable."
     }
   },
+  "whatIBuild": {
+    "tag": "ESPECIALIZACIÓN CENTRAL",
+    "title": "Qué Construyo",
+    "description": "Uniendo el ciclo completo de ingeniería de software con inteligencia artificial de vanguardia.",
+    "pillars": [
+      {
+        "id": "agents",
+        "title": "Agentes de IA & Flujos de Trabajo",
+        "badge": "IA AGÉNTICA",
+        "description": "Orquestación multi-agente autónoma, llamadas a herramientas (tool calling), enrutamiento semántico y RAG híbrido denso/disperso para dominios técnicos complejos.",
+        "pills": ["Flujos Multi-Agente", "Llamada a Herramientas", "RAG Híbrido (Qdrant)", "vLLM / Ollama"]
+      },
+      {
+        "id": "platforms",
+        "title": "Plataformas de IA & MLOps",
+        "badge": "INFRAESTRUCTURA",
+        "description": "Re-entrenamiento continuo, detección automatizada de data drift, marcos de evaluación de calidad y despliegues canarios de baja latencia sobre Kubernetes.",
+        "pills": ["MLflow & DVC", "Detección de Drift", "Evaluación de IA", "Canarios Kubernetes"]
+      },
+      {
+        "id": "automation",
+        "title": "Automatización Inteligente",
+        "badge": "OPERACIONES",
+        "description": "Flujos de trabajo operativos de extremo a extremo impulsados por IA, arquitecturas orientadas a eventos e integraciones fluidas con APIs.",
+        "pills": ["Core Orientado a Eventos", "FastAPI & AsyncIO", "Integración de APIs", "IA Operacional"]
+      },
+      {
+        "id": "sre",
+        "title": "Software Confiable & SRE",
+        "badge": "ALTA DISPONIBILIDAD",
+        "description": "Microservicios distribuidos, procesamiento financiero transaccional, observabilidad con OpenTelemetry y SLAs de disponibilidad del 99.99%.",
+        "pills": ["SRE Distribuido", "Observabilidad (OTel/Prom)", "Gestión de Incidentes", "Java / Python / C#"]
+      }
+    ]
+  },
   "bento": {
-    "tag": "PERFIL EJECUTIVO & IMPACTO TÉCNICO",
-    "title": "La Ventaja Técnica",
-    "description": "Bases sólidas de ingeniería de control físico y estabilidad combinadas con arquitecturas modernas de inteligencia artificial.",
+    "tag": "LA VENTAJA TÉCNICA",
+    "title": "Por Qué Control & SRE Importan para la IA",
+    "description": "Los sistemas de IA son probabilísticos. La ingeniería de control y SRE me enseñaron a razonar sobre estabilidad, realimentación dinámica, incertidumbre y barreras deterministas.",
     "cards": {
       "sre": {
         "badge": "MISIÓN CRÍTICA",
-        "title": "Alta Disponibilidad & Confiabilidad (SRE)",
+        "title": "De Sistemas Confiables a IA Confiable",
         "metric": "99.99%",
-        "metricLabel": "SLA en Canales Bancarios Corporativos",
-        "description": "Service Reliability Lead a cargo de canales transaccionales críticos (Net Cash, SENDA). Gestión de telemetría de baja latencia, observabilidad avanzada y resiliencia sin interrupciones.",
-        "pills": ["SRE Distribuido", "Observabilidad (Prometheus/OTel)", "Gestión de Incidentes Críticos", "Arquitectura de Microservicios"]
-      },
-      "ai": {
-        "badge": "IA APLICADA & DESARROLLO",
-        "title": "Inteligencia Artificial & Modelos Agénticos",
-        "metric": "MSc IA",
-        "metricLabel": "Universidad de los Andes (2025–2026)",
-        "description": "Desarrollo de flujos RAG multi-agente, búsqueda híbrida (vectorial densa + BM25), fine-tuning, cuantización y despliegue de inferencia local con vLLM y Ollama.",
-        "pills": ["Flujos Multi-Agente", "PyTorch / Transformers", "RAG Híbrido & Qdrant", "Cuantización & Inferencia"]
+        "metricLabel": "SLA en Producción Financiera Mantenido",
+        "description": "Service Reliability Lead gobernando plataformas bancarias de alto flujo (Net Cash, SENDA). Aplicando rigor en sistemas distribuidos y observabilidad a cargas de trabajo de IA.",
+        "pills": ["Gobernanza SRE", "OpenTelemetry", "Ingeniería de Resiliencia", "Manejo de Incidentes"]
       },
       "control": {
-        "badge": "BASE EN INGENIERÍA",
-        "title": "Control Electrónico & Sistemas Físicos",
-        "metric": "0 ms",
-        "metricLabel": "Margen de Estabilidad Determinista",
-        "description": "Ingeniero en Control Electrónico con experiencia en análisis dinámico, realimentación en lazo cerrado, PID/MPC y Redes Neuronales Informadas por la Física (PINNs). Calibración cinemática y firmware.",
-        "pills": ["Control Clásico & MPC", "PINNs & Optimización", "Firmware Embebido", "Cinemática de Precisión"]
+        "badge": "ADN DE INGENIERÍA",
+        "title": "Por Qué la Teoría de Control Importa para la IA",
+        "metric": "ADN Control",
+        "metricLabel": "Estabilidad & Realimentación Dinámica",
+        "description": "Ingeniero en Control Electrónico con bases en realimentación multivariable, estabilidad de Lyapunov y Redes Neuronales Informadas por la Física (PINNs) para acotar modelos probabilísticos.",
+        "pills": ["Control Multivariable", "Optimización PINNs", "Estabilidad Lyapunov", "Firmware Embebido"]
+      },
+      "ai": {
+        "badge": "ACADÉMICO & INVESTIGACIÓN",
+        "title": "Maestría en Inteligencia Artificial",
+        "metric": "UniAndes",
+        "metricLabel": "Candidato (2025–2026)",
+        "description": "Especialización de posgrado en la Universidad de los Andes en deep learning, optimización matemática, sistemas multi-agente y ética aplicada en IA.",
+        "pills": ["Deep Learning", "Sistemas Multi-Agente", "Optimización", "Ética en IA"]
       },
       "artifacts": {
-        "badge": "CÓDIGO EN PRODUCCIÓN",
-        "title": "Proyectos & Repositorios de Referencia",
-        "metric": "8+",
-        "metricLabel": "Repositorios de Arquitectura Abierta",
-        "description": "Implementaciones listas para producción: terminales de código asistidas por agentes locales, pipelines automatizados de MLOps y optimizadores de lazos de control dinámico.",
-        "pills": ["Arquitectura Limpia", "CI/CD & Kubernetes", "Indexación AST", "Diseño Modular"]
+        "badge": "ARTEFACTOS CURADOS",
+        "title": "Repositorios de Ingeniería Curados",
+        "metric": "8 Curados",
+        "metricLabel": "Seleccionados de 60+ Repositorios",
+        "description": "Arquitecturas inspiradas en producción: terminales agénticas offline, suites de re-entrenamiento continuo MLOps y optimizadores de lazos dinámicos de control.",
+        "pills": ["Arquitectura Limpia", "Indexación AST", "Pipelines CI/CD", "Diseño Modular"]
       }
     }
   },
+  "pipeline": {
+    "tag": "CICLO DE PRODUCCIÓN",
+    "title": "Ingeniería de IA en Producción",
+    "description": "Construir sistemas de IA va más allá de un demo con un LLM. Requiere evaluación, observabilidad, seguridad y confiabilidad en cada etapa.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "MODELO",
+        "desc": "LLMs Locales y Cloud (GPT, Llama, Mistral, vLLM)"
+      },
+      {
+        "step": "02",
+        "title": "CONTEXTO",
+        "desc": "RAG Híbrido (Vectorial Denso + BM25 Disperso) & Re-ranking"
+      },
+      {
+        "step": "03",
+        "title": "ORQUESTACIÓN",
+        "desc": "Flujos Multi-Agente, Tool Calling y Lazos de Fallback"
+      },
+      {
+        "step": "04",
+        "title": "EVALUACIÓN",
+        "desc": "Métricas de Grounding, Precisión, Recall, Latencia y Costos"
+      },
+      {
+        "step": "05",
+        "title": "OBSERVABILIDAD",
+        "desc": "Trazas OpenTelemetry, Métricas, Logs y Perfiles de Latencia"
+      },
+      {
+        "step": "06",
+        "title": "INFRAESTRUCTURA",
+        "desc": "Docker, Canarios en Kubernetes, Guardrails y Seguridad"
+      },
+      {
+        "step": "07",
+        "title": "CONFIABILIDAD",
+        "desc": "SLO 99.99%, Recuperación de Fallos, Rate Limiting & Probes"
+      }
+    ]
+  },
   "projects": {
-    "tag": "ARQUITECTURA DE SOFTWARE & IA",
-    "title": "Proyectos y Sistemas Destacados",
-    "description": "Plataformas reales diseñadas con enfoque en escalabilidad, seguridad de datos y fundamentos matemáticos.",
+    "tag": "CASOS DE ESTUDIO DE ARQUITECTURA",
+    "title": "Casos de Estudio de Ingeniería Seleccionados",
+    "description": "Plataformas y sistemas reales diseñados con enfoque en escalabilidad, soberanía de datos y rigor matemático.",
     "filters": {
-      "all": "Todos los Proyectos",
-      "llm": "LLMs & Agentes Autónomos",
+      "all": "Todos los Casos",
+      "llm": "LLMs & Sistemas Agénticos",
       "mlops": "MLOps & Infraestructura",
       "control": "Control & IA Física"
     },
@@ -96,6 +177,8 @@
         "challenge": "Los sistemas RAG convencionales generan respuestas incompletas o alucinaciones cuando consultan documentación técnica heterogénea y bases de conocimiento corporativas.",
         "solution": "Arquitectura multi-agente que descompone consultas complejas, ejecuta búsqueda híbrida en Qdrant (vectores densos + BM25) y aplica re-ranking cruzado antes de la síntesis.",
         "architectureFlow": "Consulta -> Router Agéntico -> [Sub-consultas] -> (Qdrant Vectorial + BM25) -> Reciprocal Rank Fusion -> Cross-Encoder -> Inferencia LLM -> Respuesta Verificada",
+        "evaluation": "Grounding: 96.4% | Retrieval Recall: 98.1% | Latencia P99: < 450ms",
+        "security": "Guardrails anti Prompt Injection, Autorización de Herramientas y Aislamiento de Datos",
         "stack": ["Python", "LangChain", "Qdrant", "FastAPI", "Docker", "vLLM"],
         "repoUrl": "https://github.com/josarta/Agentic-RAG-Engine",
         "cloneCmd": "git clone https://github.com/josarta/Agentic-RAG-Engine.git"
@@ -108,6 +191,8 @@
         "challenge": "El paso de experimentos a producción suele romperse por falta de versionado de datos, degradación del modelo sin alertas y despliegues manuales con riesgo de caída.",
         "solution": "Pipeline automatizado con detección de data drift mediante métricas estadísticas, versionado con DVC, registro en MLflow y despliegues canarios en Kubernetes.",
         "architectureFlow": "Entrada de Datos -> Detector de Drift -> Snapshot DVC -> Re-entrenamiento PyTorch -> Registro MLflow -> Despliegue Canario K8s -> Monitoreo Prometheus",
+        "evaluation": "Disparo Automático de Drift: 100% | Despliegues Canarios P99 < 50ms",
+        "security": "Promoción de Modelos Basada en Roles y Firmas Criptográficas de Artefactos",
         "stack": ["Python", "PyTorch", "MLflow", "DVC", "Kubernetes", "FastAPI", "Prometheus"],
         "repoUrl": "https://github.com/josarta/MLOps-Pipeline-Suite",
         "cloneCmd": "git clone https://github.com/josarta/MLOps-Pipeline-Suite.git"
@@ -120,6 +205,8 @@
         "challenge": "Los controladores PID clásicos pierden precisión ante perturbaciones no lineales severas, mientras que los modelos de deep learning carecen de garantías formales de estabilidad.",
         "solution": "Redes Neuronales Informadas por la Física (PINNs) que corrigen errores dinámicos residuales sobre el lazo clásico, manteniendo restricciones deterministas de estabilidad.",
         "architectureFlow": "Sensores -> Filtro Kalman -> Lazo Clásico PID + [Corrector Residual PINN] -> Guardián de Lyapunov -> Señal de Control -> Planta Física",
+        "evaluation": "Tiempo de Asentamiento: -38% | Violación de Barrera de Estabilidad: 0%",
+        "security": "Guardián Determinista de Lyapunov que invalida salidas neurales anómalas",
         "stack": ["Python", "PyTorch", "C#", "Teoría de Control", "Docker", "PINNs"],
         "repoUrl": "https://github.com/josarta/Control-AI-Optimizer",
         "cloneCmd": "git clone https://github.com/josarta/Control-AI-Optimizer.git"
@@ -132,27 +219,56 @@
         "challenge": "Uso de asistentes de código restringido en entornos corporativos por políticas de soberanía de datos y latencias elevadas hacia APIs externas.",
         "solution": "Entorno CLI autónomo que ejecuta modelos locales vía Ollama, analiza la estructura de repositorios con AST (Tree-sitter) y ejecuta cambios en un sandbox seguro.",
         "architectureFlow": "Instrucción -> Parser AST Tree-sitter -> Grafo de Símbolos -> Memoria de Contexto -> Inferencia Local Ollama -> Sandbox de Edición -> Verificación Git",
+        "evaluation": "Velocidad de Parseo AST: < 8ms | Precisión de Contexto: 94% | 100% Offline",
+        "security": "Ejecución Aislada en Sandbox sin Conexión Saliente y Alcance AST Estricto",
         "stack": ["Python", "Ollama", "Tree-sitter", "Rich CLI", "FastAPI"],
         "repoUrl": "https://github.com/josarta/Local-AI-Agent-Terminal",
         "cloneCmd": "git clone https://github.com/josarta/Local-AI-Agent-Terminal.git"
       }
     ]
   },
+  "principles": {
+    "tag": "CULTURA DE INGENIERÍA",
+    "title": "Principios de Ingeniería",
+    "description": "Modelos mentales fundamentales que guían cómo diseño sistemas e inteligencia artificial en producción.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Confiabilidad antes que complejidad",
+        "text": "Un sistema de IA sofisticado que no puede observarse, medirse o recuperarse ante fallos no está listo para producción."
+      },
+      {
+        "num": "02",
+        "title": "Medir antes de optimizar",
+        "text": "La latencia, el costo de tokens, el recall de recuperación y la calidad de grounding requieren instrumentación rigurosa antes de ajustar."
+      },
+      {
+        "num": "03",
+        "title": "IA probabilística, barreras deterministas",
+        "text": "Los modelos pueden ser probabilísticos. Las restricciones críticas del sistema, los guardrails y las transiciones financieras deben ser deterministas."
+      },
+      {
+        "num": "04",
+        "title": "Cada fallo se convierte en una evaluación",
+        "text": "Los incidentes de producción y casos límite inesperados deben alimentar de inmediato las suites automatizadas de evaluación y regresión."
+      }
+    ]
+  },
   "timeline": {
-    "tag": "EXPERIENCIA PROFESIONAL",
-    "title": "Trayectoria en Ingeniería y Liderazgo Técnico",
-    "description": "Experiencia comprobada asegurando alta disponibilidad en plataformas financieras críticas y desarrollando software empresarial a escala.",
+    "tag": "TRAYECTORIA EN PRODUCCIÓN",
+    "title": "Experiencia en Producción & Liderazgo de Sistemas",
+    "description": "Más de 15 años de experiencia verificada en ingeniería de software, SRE financiero de misión crítica y liderazgo en sistemas inteligentes.",
     "roles": [
       {
         "period": "AGO 2024 — PRESENTE",
         "role": "Service Reliability Lead (SRL)",
         "company": "BBVA Colombia",
         "location": "Bogotá, Colombia",
-        "domain": "Canales Digitales & Net Cash",
+        "domain": "Banca Digital & Canales Corporativos",
         "highlights": [
-          "Liderazgo en la confiabilidad, monitoreo y disponibilidad de los canales transaccionales corporativos del banco.",
-          "Automatización de detección y respuesta a incidentes críticos, manteniendo el cumplimiento de SLA del 99.99%.",
-          "Coordinación técnica entre equipos de arquitectura, infraestructura, operaciones y seguridad bancaria."
+          "Liderazgo directo sobre la disponibilidad y confiabilidad de plataformas financieras corporativas críticas (Net Cash, SENDA).",
+          "Automatización de detección de incidentes y telemetría de latencia, manteniendo disponibilidad del 99.99%.",
+          "Puente técnico principal entre la arquitectura de infraestructura, operaciones y seguridad bancaria."
         ]
       },
       {
@@ -160,11 +276,11 @@
         "role": "Senior Software Expert",
         "company": "BBVA IT Colombia",
         "location": "Bogotá, Colombia",
-        "domain": "Simulación Científica y Servicios Backend",
+        "domain": "Simulación Científica & Backends Distribuidos",
         "highlights": [
-          "Diseño y desarrollo de arquitecturas backend distribuidas y plataformas de simulación de alto rendimiento.",
-          "Adopción de buenas prácticas de ingeniería, modularidad en microservicios y observabilidad continua.",
-          "Trabajo conjunto con equipos internacionales para optimizar el procesamiento transaccional del banco."
+          "Diseño y desarrollo de arquitecturas backend distribuidas de alto rendimiento y módulos de simulación científica.",
+          "Adopción de estándares modernos de ingeniería ágil, desacoplamiento de microservicios y observabilidad continua.",
+          "Colaboración con equipos internacionales para escalar motores de procesamiento transaccional central."
         ]
       },
       {
@@ -174,39 +290,51 @@
         "location": "Buenos Aires / Bogotá",
         "domain": "Plataforma de Comercio Electrónico de Alto Tráfico",
         "highlights": [
-          "Desarrollo de servicios distribuidos e interfaces para soportar millones de transacciones diarias.",
-          "Integración de servicios backend en Java/Spring con frontends en React bajo requisitos estrictos de latencia.",
-          "Resolución de incidencias complejas y optimización continua de procesos de integración."
+          "Desarrollo de microservicios distribuidos e interfaces reactivas soportando millones de transacciones diarias.",
+          "Integración de APIs backend resilientes (Java / Spring) con frontends en React bajo estrictos SLAs de latencia.",
+          "Liderazgo en resolución de incidencias complejas y fortalecimiento de resiliencia entre servicios."
         ]
       },
       {
-        "period": "TRAYECTORIA PREVIA",
-        "role": "Ingeniero Senior de Software e Investigador Aplicado",
-        "company": "Novatec Solutions / VASS / SENA",
+        "period": "FUNDAMENTOS PREVIOS",
+        "role": "Senior Enterprise Engineer & Investigador Técnico",
+        "company": "Novatec Solutions / VASS / Investigación SENA",
         "location": "Bogotá, Colombia",
-        "domain": "Arquitectura de Software e Investigación",
+        "domain": "Arquitectura de Software & Simulación Aplicada",
         "highlights": [
-          "Desarrollo de portales empresariales y sistemas transaccionales con Java, React y bases de datos relacionales.",
-          "Diseño de simuladores de formación financiera y modelado de procesos en proyectos de investigación aplicada en el SENA."
+          "Arquitectura de portales empresariales a gran escala y sistemas transaccionales con Java, React y bases de datos relacionales.",
+          "Creación de simuladores de investigación aplicada para formación financiera y modelado de procesos en el SENA CSF."
         ]
       }
     ]
   },
+  "openTo": {
+    "tag": "OPORTUNIDADES",
+    "title": "Abierto a Roles de Enfoque",
+    "roles": [
+      "AI Systems Engineer",
+      "AI Platform Engineer",
+      "AI Solutions Architect",
+      "ML / AI Infrastructure Lead",
+      "SRE for AI Platforms",
+      "Staff Technical Lead"
+    ]
+  },
   "recruiter": {
-    "tag": "RESUMEN EJECUTIVO",
-    "title": "Perfil Técnico & CV en Un Clic",
-    "description": "Resumen conciso y estructurado para directores de ingeniería, staff engineers y líderes de contratación técnica.",
+    "tag": "FAST-TRACK PARA RECLUTADORES",
+    "title": "Perfil Ejecutivo & CV en Un Clic",
+    "description": "Resumen técnico de alta densidad diseñado para Directores de Ingeniería, Staff Engineers y Reclutadores Técnicos.",
     "openModalBtn": "Ver Resumen Ejecutivo",
     "printCVBtn": "Imprimir / Exportar a PDF",
-    "copyEmailBtn": "Copiar Correo",
-    "scheduleCall": "Agendar Entrevista Técnica",
+    "copyEmailBtn": "Copiar Correo Directo",
+    "scheduleCall": "Hablemos de Sistemas de IA",
     "modal": {
-      "title": "Perfil Técnico Ejecutivo",
-      "subtitle": "José Luis Sarta Álvarez | Senior Software Expert & Candidato a Magíster en IA",
-      "summary": "Más de 15 años de experiencia en ingeniería de software y sistemas, integrando la ingeniería de control electrónico con la inteligencia artificial aplicada. Trayectoria comprobada en SRE para banca de alta disponibilidad, sistemas multi-agente y optimización de software de misión crítica.",
+      "title": "Informe Técnico Ejecutivo",
+      "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | Candidato a Magíster en IA",
+      "summary": "Más de 15 años de trayectoria en ingeniería de software y sistemas, conectando de forma única la Ingeniería en Control Electrónico con la Inteligencia Artificial moderna. Líder comprobado en SRE financiero Tier-1 (99.99% SLA), IA agéntica y confiabilidad de sistemas en producción.",
       "metrics": [
-        { "value": "99.99%", "label": "Disponibilidad en Producción" },
-        { "value": "15+ Años", "label": "Experiencia en Ingeniería" },
+        { "value": "99.99%", "label": "SLA en Producción" },
+        { "value": "15+ Años", "label": "Experiencia en Sistemas" },
         { "value": "MSc IA", "label": "UniAndes (2025–2026)" },
         { "value": "Ing.", "label": "Control Electrónico" }
       ],
@@ -221,7 +349,7 @@
           "degree": "Ingeniero en Control Electrónico",
           "institution": "Universidad Distrital Francisco José de Caldas",
           "period": "2015 – 2020",
-          "focus": "Control Multivariable, Identificación de Sistemas, Robótica y Sistemas Embebidos en Tiempo Real"
+          "focus": "Control Multivariable, Identificación de Sistemas, Robótica, Sistemas Embebidos en Tiempo Real"
         },
         {
           "degree": "Tecnólogo Especialista en Control e Instrumentación Electrónica",
@@ -231,22 +359,29 @@
         }
       ],
       "skillsMatrix": {
-        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs",
+        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluación & Trazas",
         "systems": "SRE Distribuido, Service Reliability, Java/Spring, Python, C#, C++, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Control en Lazo Cerrado, PID/MPC, Dinámica de Sistemas, MicroPython/C++, Cinemática & Fabricación 3D"
+        "control": "Control en Lazo Cerrado, PID/MPC, Estabilidad Lyapunov, MicroPython/C++, Cinemática & Fabricación 3D"
       },
       "directContact": {
         "email": "josarta@gmail.com",
         "phone": "+57 310 795 1006",
         "linkedin": "linkedin.com/in/josarta",
         "github": "github.com/josarta",
-        "location": "Bogotá, Colombia (Disponible para roles remotos o relocalización internacional)"
+        "location": "Bogotá, Colombia (Disponible para posiciones remotas globales o relocalización)"
       }
     }
   },
+  "contactCallout": {
+    "title": "Construyamos algo confiable.",
+    "subtitle": "Los sistemas de IA se están convirtiendo en sistemas de producción. Mi enfoque es hacerlos confiables, observables y escalables.",
+    "ctaTalk": "Hablemos de Sistemas de IA",
+    "ctaCV": "Descargar CV Ejecutivo",
+    "ctaEmail": "Copiar Correo Directo"
+  },
   "footer": {
     "status": "TELEMETRÍA DE SISTEMA: SERVICIOS OPERACIONALES",
-    "copyright": "© 2026 José Luis Sarta Álvarez. Diseñado con estándares de alta disponibilidad.",
+    "copyright": "© 2026 José Luis Sarta Álvarez. AI Systems Engineer · SRE · Intelligent Automation.",
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",

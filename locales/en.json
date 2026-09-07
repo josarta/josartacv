@@ -1,11 +1,13 @@
 {
   "nav": {
     "title": "José Sarta",
-    "badge": "Control & SRE",
+    "badge": "AI Systems & SRE",
     "links": {
-      "overview": "Overview",
-      "projects": "Projects",
+      "whatIBuild": "What I Build",
+      "architecture": "Case Studies",
+      "pipeline": "AI in Production",
       "experience": "Experience",
+      "principles": "Principles",
       "recruiter": "Fast-Track CV"
     },
     "cta": "Contact",
@@ -13,77 +15,156 @@
     "status": "OPERATIONAL"
   },
   "hero": {
-    "statusIndicator": "AI SYSTEMS ARCHITECTURE • MISSION-CRITICAL SRE • AGENTIC WORKFLOWS",
+    "statusIndicator": "AI SYSTEMS ENGINEERING • SRE • INTELLIGENT AUTOMATION",
+    "taglineConcept": "From Reliable Systems to Reliable AI.",
     "telemetry": {
       "systemState": "STABLE",
       "uptime": "99.99%",
-      "latency": "< 12ms",
+      "latency": "P99 < 12ms",
       "aiDomain": "MSc in AI @ UniAndes"
     },
-    "headlinePrefix": "Bridging",
-    "headlineControl": "Control Systems Rigor",
-    "headlineMiddle": "with",
-    "headlineAI": "Frontier AI in Production",
-    "subheadline": "Senior Software Expert & SRE Lead with an MSc in AI and an Electronic Control Engineering foundation. Architecting ultra-reliable, high-throughput distributed systems (99.99% SLA), low-latency agentic pipelines, and deterministic AI architectures at scale.",
-    "ctaExecutiveCV": "Executive Summary (PDF)",
-    "ctaProjects": "View Production Architectures",
-    "ctaSchedule": "Schedule Technical Interview",
+    "headlinePrefix": "Building",
+    "headlineHighlight": "AI Systems",
+    "headlineSuffix": "That Work in Production.",
+    "subheadline": "AI Systems Engineer & SRE building reliable AI, intelligent automation and scalable software — combining Python, Machine Learning, LLMs, agentic workflows, distributed systems and production reliability.",
+    "stackPills": ["AI Engineering", "LLMs & Agents", "Hybrid RAG", "MLOps", "Distributed SRE", "Control Systems"],
+    "ctaExplore": "Explore My AI Work",
+    "ctaArchitecture": "View Architecture",
+    "ctaDownloadCV": "Download CV",
+    "ctaTalk": "Let's talk about AI Systems",
     "terminal": {
       "header": "sarta@core-system: ~/telemetry",
-      "line1": "INITIALIZING CONTROL_CORE v2.6.4... [OK]",
-      "line2": "MONITORING DISTRIBUTED BANKING CHANNELS (SLA: 99.99%)... [SYNCHRONIZED]",
-      "line3": "AGENTIC RAG ORCHESTRATION & LOCAL INFERENCE... [ACTIVE]",
-      "line4": "SYSTEM READY: Deterministic control systems and production AI models."
+      "line1": "INITIALIZING AI_SYSTEMS_CORE v3.0... [OK]",
+      "line2": "CONNECTING PRODUCTION TELEMETRY (SLA: 99.99%)... [SYNCHRONIZED]",
+      "line3": "LOADING MULTI-AGENT ORCHESTRATION & EVALUATION PIPELINES... [ACTIVE]",
+      "line4": "SYSTEM READY: From reliable systems to reliable AI."
     }
   },
+  "whatIBuild": {
+    "tag": "CORE SPECIALIZATION",
+    "title": "What I Build",
+    "description": "Bridging full-lifecycle software engineering with modern artificial intelligence.",
+    "pillars": [
+      {
+        "id": "agents",
+        "title": "AI Agents & Workflows",
+        "badge": "AGENTIC AI",
+        "description": "Autonomous multi-agent orchestration, tool calling, semantic routing, and hybrid dense/sparse RAG for complex technical domains.",
+        "pills": ["Multi-Agent Workflows", "Tool Calling", "Hybrid RAG (Qdrant)", "vLLM / Ollama"]
+      },
+      {
+        "id": "platforms",
+        "title": "AI Platforms & MLOps",
+        "badge": "PRODUCTION INFRA",
+        "description": "Continuous training, automated drift detection, model evaluation, and low-latency inference deployment on Kubernetes.",
+        "pills": ["MLflow & DVC", "Drift Detection", "AI Evaluation", "Kubernetes Canaries"]
+      },
+      {
+        "id": "automation",
+        "title": "Intelligent Automation",
+        "badge": "OPERATIONS",
+        "description": "End-to-end AI-powered operational workflows, event-driven pipelines, and seamless API integrations.",
+        "pills": ["Event-Driven Core", "FastAPI & AsyncIO", "API Integrations", "Operational AI"]
+      },
+      {
+        "id": "sre",
+        "title": "Reliable Software & SRE",
+        "badge": "HIGH AVAILABILITY",
+        "description": "Distributed microservices, high-throughput financial backends, OpenTelemetry observability, and 99.99% availability SLAs.",
+        "pills": ["Distributed SRE", "Observability (OTel/Prom)", "Incident Governance", "Java / Python / C#"]
+      }
+    ]
+  },
   "bento": {
-    "tag": "EXECUTIVE RECRUITER SNAPSHOT",
-    "title": "The Engineering Edge",
-    "description": "Deterministic control theory and systems stability combined with modern production artificial intelligence.",
+    "tag": "THE ENGINEERING EDGE",
+    "title": "Why Control & SRE Matter for AI",
+    "description": "AI systems are probabilistic. Control engineering and SRE taught me to reason about stability, feedback, uncertainty, and deterministic boundary guards.",
     "cards": {
       "sre": {
         "badge": "MISSION CRITICAL",
-        "title": "High-Availability & Service Reliability (SRE)",
+        "title": "From Reliable Systems to Reliable AI",
         "metric": "99.99%",
         "metricLabel": "Financial Production SLA Maintained",
-        "description": "Service Reliability Lead governing high-throughput banking channels (Net Cash, SENDA). Orchestrating distributed microservices, low-latency telemetry, and zero-downtime resilience.",
-        "pills": ["Distributed SRE", "Observability (OTel/Prometheus)", "Critical Incident Governance", "Event-Driven Core"]
-      },
-      "ai": {
-        "badge": "APPLIED AI & RESEARCH",
-        "title": "Artificial Intelligence & Agentic Systems",
-        "metric": "MSc AI",
-        "metricLabel": "UniAndes Candidate (2025–2026)",
-        "description": "Specialized in Agentic RAG workflows, hybrid retrieval (dense + BM25 sparse), LLM fine-tuning, quantization, and local inference orchestration (vLLM, Ollama).",
-        "pills": ["Multi-Agent Workflows", "PyTorch / Transformers", "Hybrid RAG & Qdrant", "Quantization & vLLM"]
+        "description": "Service Reliability Lead governing high-throughput banking platforms (Net Cash, SENDA). Applying distributed systems discipline and observability to production AI workloads.",
+        "pills": ["SRE Governance", "OpenTelemetry", "Resilience Engineering", "Incident Management"]
       },
       "control": {
         "badge": "ENGINEERING DNA",
-        "title": "Electronic Control & Physical Systems",
-        "metric": "0 ms",
-        "metricLabel": "Deterministic Stability Margin",
-        "description": "Electronic Control Engineer grounded in multivariable feedback, closed-loop dynamics, PID/MPC, and Physics-Informed Neural Networks (PINNs). Hands-on with kinematics and embedded firmware.",
-        "pills": ["Classical & MPC Control", "PINNs & Optimization", "Embedded Firmware", "Kinematics & Telemetry"]
+        "title": "Why Control Theory Matters for AI",
+        "metric": "Control DNA",
+        "metricLabel": "Stability & Dynamic Feedback",
+        "description": "Electronic Control Engineer grounded in multivariable feedback, Lyapunov stability, and Physics-Informed Neural Networks (PINNs) ensuring safe boundaries for probabilistic models.",
+        "pills": ["Multivariable Feedback", "PINNs Optimization", "Lyapunov Stability", "Embedded Firmware"]
+      },
+      "ai": {
+        "badge": "ACADEMIC & RESEARCH",
+        "title": "MSc in Artificial Intelligence",
+        "metric": "UniAndes",
+        "metricLabel": "Candidate (2025–2026)",
+        "description": "Advanced graduate specialization at Universidad de los Andes focusing on deep learning, mathematical optimization, multi-agent systems, and AI ethics.",
+        "pills": ["Deep Learning", "Multi-Agent Systems", "Optimization", "AI Ethics"]
       },
       "artifacts": {
-        "badge": "PRODUCTION ARTIFACTS",
-        "title": "Core Architectures & Open Repositories",
-        "metric": "8+",
-        "metricLabel": "Core Architectural Repositories",
-        "description": "Battle-tested repositories: local agent terminal runtimes, automated MLOps continuous training pipelines, and real-time control loop optimizers.",
-        "pills": ["Clean Architecture", "CI/CD & Kubernetes", "AST Indexing", "Modular Systems"]
+        "badge": "CURATED ARTIFACTS",
+        "title": "Curated Engineering Repositories",
+        "metric": "8 Curated",
+        "metricLabel": "Selected from 60+ Repositories",
+        "description": "Production-inspired architectures: autonomous agent terminals, automated MLOps retraining suites, and real-time dynamic control optimizers.",
+        "pills": ["Clean Architecture", "AST Code Indexing", "CI/CD Pipelines", "Modular Design"]
       }
     }
   },
+  "pipeline": {
+    "tag": "PRODUCTION LIFECYCLE",
+    "title": "AI Engineering in Production",
+    "description": "Building AI systems is more than an API demo. It requires full-lifecycle evaluation, observability, security, and reliability.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "MODEL",
+        "desc": "Local & Cloud LLMs (GPT, Llama, Mistral, vLLM)"
+      },
+      {
+        "step": "02",
+        "title": "CONTEXT",
+        "desc": "Hybrid Dense Vector + Sparse BM25 RAG & Reranking"
+      },
+      {
+        "step": "03",
+        "title": "ORCHESTRATION",
+        "desc": "Multi-Agent Workflows, Tool Calling & Fallback Loops"
+      },
+      {
+        "step": "04",
+        "title": "EVALUATION",
+        "desc": "Grounding, Accuracy, Recall, Latency & Cost Tracking"
+      },
+      {
+        "step": "05",
+        "title": "OBSERVABILITY",
+        "desc": "OpenTelemetry Traces, Metrics, Logs & Latency Profiling"
+      },
+      {
+        "step": "06",
+        "title": "INFRASTRUCTURE",
+        "desc": "Docker, Kubernetes Canaries, Guardrails & Security"
+      },
+      {
+        "step": "07",
+        "title": "RELIABILITY",
+        "desc": "99.99% SLO, Fault Recovery, Rate Limiting & Health Probes"
+      }
+    ]
+  },
   "projects": {
-    "tag": "DEEP DIVE FOR STAFF ENGINEERS",
-    "title": "Featured Engineering Architectures",
+    "tag": "ARCHITECTURE CASE STUDIES",
+    "title": "Selected Engineering Case Studies",
     "description": "Production-grade platforms and systems engineered for scalability, privacy, and mathematical rigor.",
     "filters": {
-      "all": "All Architectures",
+      "all": "All Case Studies",
       "llm": "LLMs & Agentic Systems",
-      "mlops": "MLOps & Production Infra",
-      "control": "Control & Physics-Informed AI"
+      "mlops": "MLOps & Infra",
+      "control": "Control & Physics AI"
     },
     "clonePrompt": "Copy Git Clone",
     "copied": "Copied!",
@@ -96,6 +177,8 @@
         "challenge": "Standard RAG pipelines suffer from context dilution, hallucination in complex enterprise domains, and poor cross-document synthesis across heterogeneous stores.",
         "solution": "Multi-agent collaborative architecture with semantic-hybrid routing, sparse BM25 + dense Qdrant vector indexing, and precision reranking for sub-second enterprise queries.",
         "architectureFlow": "Client Query -> Agent Router -> [Decomposer] -> (Dense Vector + BM25 Sparse) -> Reciprocal Rank Fusion -> Cross-Encoder Reranker -> Local/Remote LLM (vLLM) -> Synthesized Proof Output",
+        "evaluation": "Grounding: 96.4% | Retrieval Recall: 98.1% | P99 Latency: < 450ms",
+        "security": "Prompt Injection Guardrails, Tool Authorization & Data Isolation",
         "stack": ["Python", "LangChain", "Qdrant", "FastAPI", "Docker", "vLLM"],
         "repoUrl": "https://github.com/josarta/Agentic-RAG-Engine",
         "cloneCmd": "git clone https://github.com/josarta/Agentic-RAG-Engine.git"
@@ -108,6 +191,8 @@
         "challenge": "Experimental ML models frequently fail when transitioning to production due to silent data drift, missing artifact provenance, and unmonitored model degradation.",
         "solution": "Automated data validation pipeline with statistical drift tracking, DVC dataset versioning, MLflow model registry, and Kubernetes-orchestrated canary deployments.",
         "architectureFlow": "Data Stream -> Evident Drift Detector -> DVC Snapshot -> Automated PyTorch Retraining -> MLflow Registry Evaluation -> Kubernetes Canary Rollout -> Prometheus/Grafana Telemetry",
+        "evaluation": "Automated Drift Triggering: 100% | Zero-Downtime Rollouts: P99 < 50ms",
+        "security": "Role-Based Model Promotion & Cryptographic Artifact Signatures",
         "stack": ["Python", "PyTorch", "MLflow", "DVC", "Kubernetes", "FastAPI", "Prometheus"],
         "repoUrl": "https://github.com/josarta/MLOps-Pipeline-Suite",
         "cloneCmd": "git clone https://github.com/josarta/MLOps-Pipeline-Suite.git"
@@ -120,6 +205,8 @@
         "challenge": "Classical PID/MPC controllers degrade under nonlinear dynamic perturbations, while black-box deep learning models lack deterministic safety guarantees.",
         "solution": "Physics-Informed Neural Network (PINN) architecture providing residual error correction on top of classical stability models, evaluated via a high-throughput C#/Python interop.",
         "architectureFlow": "Sensor Telemetry -> State Observer (Kalman) -> Classical Feedback Loop + [PINN Residual Corrector] -> Lyapunov Stability Guard -> Actuator Signal -> Physical Plant",
+        "evaluation": "Dynamic Settling Time: -38% | Stability Boundary Violation: 0%",
+        "security": "Deterministic Lyapunov Safeguard Overriding Neural Outputs",
         "stack": ["Python", "PyTorch", "C#", "Control Theory", "Docker", "PINNs"],
         "repoUrl": "https://github.com/josarta/Control-AI-Optimizer",
         "cloneCmd": "git clone https://github.com/josarta/Control-AI-Optimizer.git"
@@ -132,27 +219,56 @@
         "challenge": "High API latency, compliance and data sovereignty constraints, and lack of contextual syntax comprehension when running agents on private enterprise codebases.",
         "solution": "Autonomous terminal runtime running 100% offline via local LLM backends (Ollama), powered by Tree-sitter AST parsing, function-level semantic indexing, and an execution sandbox.",
         "architectureFlow": "Local Shell Prompt -> Tree-sitter Code Parser -> AST Dependency Graph -> Scratchpad Memory Buffer -> Local Ollama Ingestion -> Sandboxed Diff Execution -> Git Commit Verify",
+        "evaluation": "AST Parsing Speed: < 8ms | Context Precision: 94% | 100% Air-Gapped",
+        "security": "Zero-Egress Sandboxed Execution & Strict Local AST Scope",
         "stack": ["Python", "Ollama", "Tree-sitter", "Rich CLI", "FastAPI"],
         "repoUrl": "https://github.com/josarta/Local-AI-Agent-Terminal",
         "cloneCmd": "git clone https://github.com/josarta/Local-AI-Agent-Terminal.git"
       }
     ]
   },
+  "principles": {
+    "tag": "ENGINEERING CULTURE",
+    "title": "Engineering Principles",
+    "description": "Core mental models that guide how I architect systems and production AI.",
+    "items": [
+      {
+        "num": "01",
+        "title": "Reliability before complexity",
+        "text": "A sophisticated AI system that cannot be observed, measured, or recovered under failure is not production-ready."
+      },
+      {
+        "num": "02",
+        "title": "Measure before optimizing",
+        "text": "Latency, token cost, retrieval recall, and grounding quality require rigorous instrumentation before tuning."
+      },
+      {
+        "num": "03",
+        "title": "Probabilistic AI, deterministic boundaries",
+        "text": "Neural models can be probabilistic. Critical system constraints, guardrails, and financial state transitions must be deterministic."
+      },
+      {
+        "num": "04",
+        "title": "Every failure becomes an evaluation",
+        "text": "Production incidents and unexpected edge cases must immediately feed back into automated evaluation and regression suites."
+      }
+    ]
+  },
   "timeline": {
-    "tag": "SYSTEMS TRACK RECORD",
-    "title": "Systems Engineering & Leadership Timeline",
-    "description": "Proven track record governing critical high-availability infrastructure, full-stack enterprise platforms, and intelligent automation.",
+    "tag": "PRODUCTION TRACK RECORD",
+    "title": "Production Experience & Systems Leadership",
+    "description": "15+ years of verified software engineering, mission-critical financial SRE, and intelligent systems leadership.",
     "roles": [
       {
         "period": "AUG 2024 — PRESENT",
         "role": "Service Reliability Lead (SRL)",
         "company": "BBVA Colombia",
         "location": "Bogotá, Colombia",
-        "domain": "Digital Channels & Net Cash",
+        "domain": "Digital Banking & Corporate Channels",
         "highlights": [
-          "Direct leadership over the availability and latency reliability of mission-critical corporate financial channels.",
-          "Spearheaded automated telemetry and incident resolution pipelines, maintaining strict 99.99% availability.",
-          "Principal engineering bridge between technical infrastructure, business operations, and enterprise security."
+          "Direct leadership over availability and reliability of mission-critical corporate financial platforms (Net Cash, SENDA).",
+          "Automated incident detection and latency telemetry pipelines, consistently maintaining 99.99% availability.",
+          "Principal engineering bridge between infrastructure architecture, business operations, and banking security."
         ]
       },
       {
@@ -160,11 +276,11 @@
         "role": "Senior Software Expert",
         "company": "BBVA IT Colombia",
         "location": "Bogotá, Colombia",
-        "domain": "Scientific Simulation & Enterprise Backends",
+        "domain": "Scientific Simulation & Distributed Backends",
         "highlights": [
           "Engineered high-performance distributed backend architectures and scientific simulation modules.",
           "Championed modern agile engineering standards, microservices decoupling, and automated observability.",
-          "Collaborated across international engineering teams to scale core banking compute systems."
+          "Collaborated across international engineering teams to scale core financial processing engines."
         ]
       },
       {
@@ -174,7 +290,7 @@
         "location": "Buenos Aires / Bogotá",
         "domain": "High-Volume E-Commerce Platform",
         "highlights": [
-          "Developed high-traffic distributed services and reactive interfaces supporting millions of daily transactions.",
+          "Developed high-traffic distributed microservices and reactive interfaces supporting millions of daily transactions.",
           "Integrated resilient backend APIs (Java / Spring) with high-speed React frontends under tight latency SLAs.",
           "Led complex technical incident investigations and cross-service resilience enhancements."
         ]
@@ -184,12 +300,24 @@
         "role": "Senior Enterprise Engineer & Technical Researcher",
         "company": "Novatec Solutions / VASS / SENA Research",
         "location": "Bogotá, Colombia",
-        "domain": "Systems Architecture & Applied Research",
+        "domain": "Software Architecture & Applied Simulation",
         "highlights": [
-          "Architected large-scale enterprise portals and transactional systems with Java, React, and SQL data engines.",
+          "Architected large-scale enterprise portals and transactional systems with Java, React, and relational data engines.",
           "Authored applied research simulators for financial learning and algorithmic process modeling at SENA CSF."
         ]
       }
+    ]
+  },
+  "openTo": {
+    "tag": "OPPORTUNITIES",
+    "title": "Open to Target Roles",
+    "roles": [
+      "AI Systems Engineer",
+      "AI Platform Engineer",
+      "AI Solutions Architect",
+      "ML / AI Infrastructure Lead",
+      "SRE for AI Platforms",
+      "Staff Technical Lead"
     ]
   },
   "recruiter": {
@@ -199,11 +327,11 @@
     "openModalBtn": "Launch Executive Overview",
     "printCVBtn": "Print / Export PDF",
     "copyEmailBtn": "Copy Direct Email",
-    "scheduleCall": "Schedule Technical Screen",
+    "scheduleCall": "Let's talk about AI Systems",
     "modal": {
       "title": "Executive Technical Briefing",
-      "subtitle": "José Luis Sarta Álvarez | Senior Software Expert & MSc AI Candidate",
-      "summary": "15+ years of software and systems engineering excellence, uniquely bridging Electronic Control & Instrumentation with Modern Artificial Intelligence. Proven leader in Tier-1 financial SRE, Agentic AI, and deterministic system optimization.",
+      "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | MSc in AI Candidate",
+      "summary": "15+ years of software and systems engineering excellence, uniquely bridging Electronic Control & Instrumentation with Modern Artificial Intelligence. Proven leader in Tier-1 financial SRE (99.99% SLA), Agentic AI, and production systems reliability.",
       "metrics": [
         { "value": "99.99%", "label": "Production Uptime SLA" },
         { "value": "15+ Yrs", "label": "Software & Systems Experience" },
@@ -231,9 +359,9 @@
         }
       ],
       "skillsMatrix": {
-        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs",
+        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluation & Tracing",
         "systems": "Distributed SRE, Service Reliability, Java/Spring, Python, C#, C++, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Closed-Loop Control, PID/MPC, System Dynamics, MicroPython/C++, Kinematics & 3D Prototyping"
+        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, MicroPython/C++, Kinematics & 3D Prototyping"
       },
       "directContact": {
         "email": "josarta@gmail.com",
@@ -244,9 +372,16 @@
       }
     }
   },
+  "contactCallout": {
+    "title": "Let's build something reliable.",
+    "subtitle": "AI systems are becoming production systems. I care about making them reliable, observable, and scalable.",
+    "ctaTalk": "Let's talk about AI Systems",
+    "ctaCV": "Download Executive CV",
+    "ctaEmail": "Copy Direct Email"
+  },
   "footer": {
     "status": "SYSTEM TELEMETRY: ALL SERVICES HEALTHY",
-    "copyright": "© 2026 José Luis Sarta Álvarez. Built for Tier-1 AI & Systems Engineering Teams.",
+    "copyright": "© 2026 José Luis Sarta Álvarez. AI Systems Engineer · SRE · Intelligent Automation.",
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",

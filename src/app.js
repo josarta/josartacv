@@ -1,6 +1,6 @@
 /**
  * Main Application Orchestrator
- * Connects i18n, cinematic motion system (Lenis + GSAP), telemetry canvas, terminal, spotlight projects, and recruiter modal.
+ * Connects i18n, motion system, telemetry canvas, terminal, case studies, pillars, principles, and recruiter modal.
  */
 
 import { i18n } from './i18n.js';
@@ -10,31 +10,35 @@ import { TerminalController } from './components/terminal.js';
 import { ProjectsController } from './components/projects.js';
 import { TimelineController } from './components/timeline.js';
 import { RecruiterModalController } from './components/recruiter-modal.js';
+import { ContentSectionsController } from './components/what-i-build.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   // 1. Initialize i18n first for instantaneous zero-flicker dictionary binding
   await i18n.init();
 
-  // 2. Initialize Cinematic Motion System (Lenis Smooth Scroll + GSAP ScrollTrigger + Magnetic Hover)
+  // 2. Initialize Cinematic Motion System (GSAP ScrollTrigger + Snappy reveals)
   const motionSystem = new CinematicMotionSystem();
   motionSystem.init();
 
-  // 3. Initialize Ambient Telemetry Canvas (Dynamic Phase-Space & Neural Vectors)
+  // 3. Initialize Ambient Telemetry Canvas (Dynamic Nodes & Phase-Space)
   new TelemetryCanvas('telemetry-canvas');
 
   // 4. Initialize Interactive Live Terminal
   new TerminalController('hero-terminal', i18n);
 
-  // 5. Initialize Featured Projects Engine
+  // 5. Initialize Content Sections (What I Build, Pipeline, Principles, Open To)
+  new ContentSectionsController(i18n);
+
+  // 6. Initialize Featured Case Studies Engine
   new ProjectsController('projects-section', i18n);
 
-  // 6. Initialize Systems Reliability Timeline
+  // 7. Initialize Systems Reliability Timeline
   new TimelineController('timeline-container', i18n);
 
-  // 7. Initialize Recruiter Fast-Track Modal
+  // 8. Initialize Recruiter Fast-Track Modal
   new RecruiterModalController(i18n);
 
-  // 8. Mobile Navigation Drawer Toggle
+  // 9. Mobile Navigation Drawer Toggle
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   if (mobileMenuBtn && mobileMenu) {
@@ -49,7 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // 9. Active Navigation Link Tracker
+  // 10. Active Navigation Link Tracker
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('nav a[href^="#"]');
 
@@ -72,5 +76,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   });
 
-  console.log('[System Core] Sarta AI Cinematic Motion & Telemetry online.');
+  console.log('[System Core] Sarta AI Portfolio initialized with Full Improvements Plan.');
 });
