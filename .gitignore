@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment & Logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Temp & Cache
+.cache/
+dist/
+tmp/

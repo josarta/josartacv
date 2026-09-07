@@ -1,0 +1,161 @@
+/**
+ * Featured Engineering Projects Component
+ * Responsive cards, spotlight mouse tracking, and interactive clone utilities.
+ */
+
+export class ProjectsController {
+  constructor(containerId, i18nManager) {
+    this.container = document.getElementById(containerId);
+    this.i18n = i18nManager;
+    this.currentFilter = 'all';
+    if (!this.container) return;
+
+    this.cardsContainer = this.container.querySelector('#projects-grid');
+    this.filterButtons = this.container.querySelectorAll('.filter-pill');
+
+    this.init();
+  }
+
+  init() {
+    this.setupFilters();
+    this.render();
+
+    window.addEventListener('languageChanged', () => {
+      this.render();
+    });
+  }
+
+  setupFilters() {
+    this.filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+        this.currentFilter = filter;
+
+        // Update active UI state
+        this.filterButtons.forEach(b => {
+          b.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
+          b.classList.add('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
+        });
+
+        btn.classList.remove('bg-zinc-900/80', 'text-zinc-400', 'border-zinc-800');
+        btn.classList.add('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/50');
+
+        this.render();
+      });
+    });
+  }
+
+  render() {
+    if (!this.cardsContainer) return;
+
+    const items = this.i18n.t('projects.items');
+    if (!Array.isArray(items)) return;
+
+    const filtered = this.currentFilter === 'all' 
+      ? items 
+      : items.filter(p => p.category === this.currentFilter);
+
+    const clonePromptText = this.i18n.t('projects.clonePrompt');
+    const copiedText = this.i18n.t('projects.copied');
+
+    this.cardsContainer.innerHTML = filtered.map(item => `
+      <div class="spotlight-card glass-panel p-5 sm:p-7 flex flex-col justify-between relative group border border-white/10" data-reveal-item>
+        <div>
+          <!-- Header & Badge -->
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="px-2.5 py-0.5 text-xs font-mono font-medium rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+              #${item.category.toUpperCase()}
+            </span>
+            <a href="${item.repoUrl}" target="_blank" rel="noopener noreferrer" 
+               class="text-xs font-mono text-zinc-400 hover:text-white flex items-center gap-1 transition-colors">
+              <span>Source</span>
+              <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Title & Subtitle -->
+          <h3 class="text-lg sm:text-xl font-bold text-white tracking-tight group-hover:text-emerald-300 transition-colors">
+            ${item.title}
+          </h3>
+          <p class="text-xs sm:text-sm font-medium text-cyan-400 mt-1 mb-3">
+            ${item.subtitle}
+          </p>
+
+          <!-- Engineering Challenge -->
+          <div class="mb-3 bg-zinc-950/70 rounded-lg p-3 border border-white/5">
+            <div class="text-[10px] font-mono uppercase tracking-wider text-rose-400 font-semibold mb-1 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-rose-500"></span> The Engineering Challenge
+            </div>
+            <p class="text-xs text-zinc-300 leading-relaxed">
+              ${item.challenge}
+            </p>
+          </div>
+
+          <!-- Solution & Architecture Flow -->
+          <div class="mb-4 bg-zinc-950/70 rounded-lg p-3 border border-white/5">
+            <div class="text-[10px] font-mono uppercase tracking-wider text-emerald-400 font-semibold mb-1 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Architectural Solution
+            </div>
+            <p class="text-xs text-zinc-300 leading-relaxed mb-2.5">
+              ${item.solution}
+            </p>
+            
+            <div class="text-[9px] font-mono uppercase text-zinc-500 mb-1">System Pipeline Flow:</div>
+            <div class="ascii-flow text-[10px] sm:text-[11px] p-2 overflow-x-auto rounded border border-zinc-800/80 text-sky-300 leading-normal">
+              ${item.architectureFlow}
+            </div>
+          </div>
+
+          <!-- Tech Stack Pills -->
+          <div class="flex flex-wrap gap-1.5 mb-5">
+            ${item.stack.map(tech => `
+              <span class="px-2 py-0.5 text-[11px] font-mono bg-zinc-900 text-zinc-300 rounded border border-zinc-800">
+                ${tech}
+              </span>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- Action Footer -->
+        <div class="pt-3.5 border-t border-white/5 flex flex-wrap items-center justify-between gap-2.5">
+          <button class="copy-clone-btn text-xs font-mono px-3 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-700/60 flex items-center gap-1.5 transition-all"
+                  data-cmd="${item.cloneCmd}">
+            <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+            </svg>
+            <span class="btn-text text-[11px] sm:text-xs">${clonePromptText}</span>
+          </button>
+
+          <a href="${item.repoUrl}" target="_blank" rel="noopener noreferrer"
+             class="text-xs font-semibold px-3.5 py-1.5 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-300 border border-emerald-500/30 flex items-center gap-1 transition-all">
+            <span>GitHub</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    `).join('');
+
+    // Attach copy button events
+    this.cardsContainer.querySelectorAll('.copy-clone-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const cmd = btn.getAttribute('data-cmd');
+        const textSpan = btn.querySelector('.btn-text');
+        try {
+          await navigator.clipboard.writeText(cmd);
+          textSpan.textContent = copiedText;
+          btn.classList.add('border-emerald-500', 'text-emerald-400');
+          setTimeout(() => {
+            textSpan.textContent = clonePromptText;
+            btn.classList.remove('border-emerald-500', 'text-emerald-400');
+          }, 2000);
+        } catch (err) {
+          console.error('Clipboard copy failed:', err);
+        }
+      });
+    });
+  }
+}
