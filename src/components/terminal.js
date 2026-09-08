@@ -70,7 +70,7 @@ export class TerminalController {
 
     const inputLine = document.createElement('div');
     inputLine.className = 'text-white font-mono flex items-center gap-1 mt-2 text-xs';
-    inputLine.innerHTML = `<span class="text-emerald-400">sarta@core:~$</span> ${this.escapeHtml(cmd)}`;
+    inputLine.innerHTML = `<span class="text-emerald-400">josarta@core:~$</span> ${this.escapeHtml(cmd)}`;
     this.logsEl.appendChild(inputLine);
 
     let output = '';

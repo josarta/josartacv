@@ -1,13 +1,11 @@
 {
   "nav": {
-    "title": "José Sarta",
-    "badge": "AI Systems & SRE",
+    "title": "Josarta",
+    "badge": "AI Systems",
     "links": {
-      "whatIBuild": "Platforms & AI",
+      "whatIBuild": "How I Deliver Value",
       "architecture": "Case Studies",
-      "pipeline": "AI in Production",
       "experience": "Experience",
-      "principles": "Principles",
       "recruiter": "Staff CV"
     },
     "cta": "Schedule Call ↗",
@@ -15,7 +13,7 @@
     "status": "OPERATIONAL"
   },
   "hero": {
-    "statusIndicator": "● AVAILABLE FOR TIER-1 AI ROLES • HIGH-THROUGHPUT MISSION-CRITICAL SRE • AGENTIC WORKFLOWS",
+    "statusIndicator": "● SOFTWARE ENGINEER • CYCLING ENTHUSIAST • COFFEE ADDICT",
     "taglineConcept": "From Reliable Systems to Reliable AI.",
     "portrait": {
       "status": "ONLINE",
@@ -23,32 +21,35 @@
       "degree": "MSc AI"
     },
     "telemetry": {
-      "systemState": "STABLE",
-      "uptime": "99.99% SLA",
-      "latency": "P99 < 12ms",
-      "aiDomain": "MSc in AI @ UniAndes"
+      "systemState": "PRODUCTION READY",
+      "uptime": "HIGH AVAILABILITY",
+      "core": "Control & AI Systems"
     },
-    "headlinePrefix": "Bridging",
-    "headlineHighlight": "Control Systems Rigor",
-    "headlineSuffix": "with High-Throughput AI in Production.",
-    "subheadline": "Senior Software Expert & SRE Lead specializing in high-throughput, mission-critical financial applications (99.99% SLA). Combining an Electronic Control Engineering foundation with an MSc in Artificial Intelligence to architect deterministic distributed systems, low-latency agentic RAG pipelines, and resilient production AI infrastructure.",
-    "stackPills": ["High-Throughput SRE", "Agentic RAG", "Distributed Systems", "MLOps Lifecycle", "Closed-Loop Control", "vLLM & Qdrant"],
-    "ctaExplore": "Explore Production Systems ↘",
-    "ctaArchitecture": "AI in Production Lifecycle ↘",
+    "headline": "My goal was never just to prove I can write code, but to demonstrate how to transform <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">Artificial Intelligence</span> into measurable business impact, high availability, and tangible production ROI.",
+    "subheadline": "Senior Software Expert & SRE Lead specializing in high-throughput mission-critical systems, holding an MSc in AI and an Electronic Control Engineering degree. I master the full lifecycle of Deep Learning and GenAI—orchestrating models with PyTorch, TensorFlow, RAG pipelines with LangChain/LlamaIndex, and enterprise MLOps across Kubernetes and MLflow. My core differentiator lies in bridging mathematical rigor and robust engineering with real-world purpose: leading teams with empathy and architecting ethical, transparent, and reliable AI systems that create a positive, tangible impact for people.",
+    "stackPills": [
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "LLM Engineering",
+      "RAG Architectures",
+      "Docker & FastAPI"
+    ],
+    "ctaExplore": "Explore Case Studies ↘",
     "ctaDownloadCV": "Download Staff CV (PDF)",
     "ctaTalk": "Schedule Technical Call ↗",
     "terminal": {
-      "header": "sarta@core-system: ~/telemetry",
+      "header": "josarta@core-system: ~/telemetry",
       "line1": "INITIALIZING AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "MONITORING MISSION-CRITICAL PLATFORMS (99.99% SLA)... [SYNCHRONIZED]",
-      "line3": "LOADING MULTI-AGENT ORCHESTRATION & EVALUATION PIPELINES... [ACTIVE]",
-      "line4": "SYSTEM READY: Bridging Control Systems Rigor with High-Throughput AI."
+      "line2": "MONITORING HIGH-AVAILABILITY PLATFORMS... [SYNCHRONIZED]",
+      "line3": "LOADING MULTI-AGENT ORCHESTRATION & EVALUATION... [ACTIVE]",
+      "line4": "SYSTEM READY: Transforming AI into measurable, reliable production ROI."
     }
   },
   "whatIBuild": {
-    "tag": "ENGINEERING PILLARS & SRE",
-    "title": "Platforms, Automation & AI",
-    "description": "Overseeing platform stability, automating operational toil, and deploying AI models backed by deterministic guardrails.",
+    "tag": "HOW I DELIVER VALUE",
+    "title": "Simplifying Complexity Through Automation & AI",
+    "description": "I help teams thrive by removing operational friction and turning Artificial Intelligence into an accessible, transparent tool that genuinely solves human needs.",
     "pillars": [
       {
         "id": "agents",
@@ -81,31 +82,15 @@
     ]
   },
   "bento": {
-    "tag": "THE ENGINEERING EDGE",
-    "title": "Why Control & SRE Matter for AI",
-    "description": "AI systems are probabilistic. Control engineering and SRE taught me to reason about stability, feedback, uncertainty, and deterministic boundary guards.",
+    "tag": "MY ENGINEERING PERSPECTIVE",
+    "title": "Turning AI Uncertainty into Systems People Can Truly Rely On",
+    "description": "AI models are inherently probabilistic and dynamic; electronic control taught me the discipline of never leaving critical outcomes to chance. Throughout my career, I’ve specialized in wrapping safe, deterministic boundaries around uncertainty—turning advanced algorithms into resilient, ethical systems people can trust every day.",
     "cards": {
-      "sre": {
-        "badge": "MISSION CRITICAL",
-        "title": "SRE & Mission-Critical Scale",
-        "metric": "99.99% SLA",
-        "metricLabel": "Financial Platforms Serving Millions of Recurring Users",
-        "description": "Service Reliability Lead governing high-throughput banking channels (Net Cash, SENDA). Applying distributed systems discipline, zero-downtime rollouts, and OpenTelemetry observability to production AI workloads.",
-        "pills": ["SRE Governance", "OpenTelemetry", "Zero-Downtime", "Incident Management"]
-      },
-      "control": {
-        "badge": "ENGINEERING DNA",
-        "title": "Control Engineering DNA",
-        "metric": "Control DNA",
-        "metricLabel": "Closed-Loop Stability & State-Space",
-        "description": "Electronic Control Engineer grounded in multivariable feedback, Lyapunov stability, state-space modeling, embedded telemetry, and Physics-Informed Neural Networks (PINNs) to guarantee deterministic bounds on neural models.",
-        "pills": ["Multivariable Feedback", "PINNs Optimization", "Lyapunov Bounds", "Embedded Telemetry"]
-      },
       "ai": {
         "badge": "ACADEMIC & RESEARCH",
         "title": "AI & Multi-Agent Core (MSc UniAndes)",
         "metric": "UniAndes",
-        "metricLabel": "Candidate (2025–2026)",
+        "metricLabel": "Master's Candidate (2025–2026)",
         "description": "Advanced graduate specialization at Universidad de los Andes focusing on deep learning, mathematical optimization, multi-agent systems, and production AI ethics.",
         "pills": ["Deep Learning", "Multi-Agent Systems", "Optimization", "AI Ethics"]
       },
@@ -119,52 +104,10 @@
       }
     }
   },
-  "pipeline": {
-    "tag": "PRODUCTION LIFECYCLE",
-    "title": "AI Engineering in Production",
-    "description": "Building AI systems is more than an API demo. It requires full-lifecycle evaluation, observability, security, and reliability.",
-    "steps": [
-      {
-        "step": "01",
-        "title": "MODEL",
-        "desc": "Local & Cloud LLMs (GPT, Llama, Mistral, vLLM)"
-      },
-      {
-        "step": "02",
-        "title": "CONTEXT",
-        "desc": "Hybrid Dense Vector + Sparse BM25 RAG & Reranking"
-      },
-      {
-        "step": "03",
-        "title": "ORCHESTRATION",
-        "desc": "Multi-Agent Workflows, Tool Calling & Fallback Loops"
-      },
-      {
-        "step": "04",
-        "title": "EVALUATION",
-        "desc": "Grounding, Accuracy, Recall, Latency & Cost Tracking"
-      },
-      {
-        "step": "05",
-        "title": "OBSERVABILITY",
-        "desc": "OpenTelemetry Traces, Metrics, Logs & Latency Profiling"
-      },
-      {
-        "step": "06",
-        "title": "INFRASTRUCTURE",
-        "desc": "Docker, Kubernetes Canaries, Guardrails & Security"
-      },
-      {
-        "step": "07",
-        "title": "RELIABILITY",
-        "desc": "99.99% SLA, Fault Recovery, Rate Limiting & Health Probes"
-      }
-    ]
-  },
   "projects": {
-    "tag": "ARCHITECTURE CASE STUDIES",
-    "title": "Selected Engineering Case Studies",
-    "description": "Production-grade platforms and systems engineered for scalability, privacy, and mathematical rigor.",
+    "tag": "FROM RESEARCH TO PRODUCTION",
+    "title": "AI Architectures & Control Systems in Action",
+    "description": "Engineering case studies combining multi-agent workflows, high-availability MLOps pipelines, and physical control systems designed for reliability and verified performance.",
     "filters": {
       "all": "#All",
       "llm": "#LLMs-and-Agents",
@@ -179,12 +122,12 @@
         "id": "agentic-rag-engine",
         "title": "Agentic-RAG-Engine",
         "category": "llm",
-        "subtitle": "Enterprise Multi-Agent Retrieval-Augmented Generation Platform",
-        "challenge": "Standard RAG pipelines suffer from context dilution, hallucination in complex enterprise domains, and poor cross-document synthesis across heterogeneous stores.",
-        "solution": "Multi-agent collaborative architecture with semantic-hybrid routing, sparse BM25 + dense Qdrant vector indexing, and precision reranking for sub-second enterprise queries.",
-        "architectureFlow": "Client Query -> Agent Router -> [Decomposer] -> (Dense Vector + BM25 Sparse) -> Reciprocal Rank Fusion -> Cross-Encoder Reranker -> Local/Remote LLM (vLLM) -> Synthesized Proof Output",
-        "evaluation": "Grounding: 96.4% | Retrieval Recall: 98.1% | P99 Latency: < 450ms",
-        "security": "Prompt Injection Guardrails, Tool Authorization & Data Isolation",
+        "subtitle": "Multi-Agent RAG Platform for Deep Technical Knowledge",
+        "challenge": "Conventional RAG systems fail with hallucinations or incomplete context when querying complex, multi-source technical documents and enterprise repositories.",
+        "solution": "Multi-agent architecture that breaks queries into structured sub-problems, performs hybrid dense/sparse search in Qdrant, and cross-reranks before LLM synthesis.",
+        "architectureFlow": "Query -> Agentic Router -> [Sub-Queries] -> (Qdrant Dense + BM25) -> Reciprocal Rank Fusion -> Cross-Encoder -> LLM Inference -> Grounded Response",
+        "evaluation": "Grounding: 96.4% | Retrieval Recall: 98.1% | Latency P99: < 450ms",
+        "security": "Prompt Injection Guardrails, Tool-calling Authorization & Strict Data Isolation",
         "stack": ["Python", "LangChain", "Qdrant", "FastAPI", "Docker", "vLLM"],
         "repoUrl": "https://github.com/josarta/Agentic-RAG-Engine",
         "cloneCmd": "git clone https://github.com/josarta/Agentic-RAG-Engine.git"
@@ -193,11 +136,11 @@
         "id": "mlops-pipeline-suite",
         "title": "MLOps-Pipeline-Suite",
         "category": "mlops",
-        "subtitle": "End-to-End Automated Machine Learning Lifecycle & Monitoring",
-        "challenge": "Experimental ML models frequently fail when transitioning to production due to silent data drift, missing artifact provenance, and unmonitored model degradation.",
-        "solution": "Automated data validation pipeline with statistical drift tracking, DVC dataset versioning, MLflow model registry, and Kubernetes-orchestrated canary deployments.",
-        "architectureFlow": "Data Stream -> Evident Drift Detector -> DVC Snapshot -> Automated PyTorch Retraining -> MLflow Registry Evaluation -> Kubernetes Canary Rollout -> Prometheus/Grafana Telemetry",
-        "evaluation": "Automated Drift Triggering: 100% | Zero-Downtime Rollouts: P99 < 50ms",
+        "subtitle": "End-to-End ML Model Lifecycle & Production Deployment",
+        "challenge": "ML prototypes frequently stall before production due to missing data versioning, unmonitored model degradation, and high-risk manual deployments.",
+        "solution": "Automated retraining pipeline with drift detection via Kolmogorov-Smirnov statistical tests, DVC data versioning, MLflow registry, and canary rollouts on Kubernetes.",
+        "architectureFlow": "Data Ingest -> Drift Detector -> DVC Snapshot -> PyTorch Retraining -> MLflow Registry -> K8s Canary Deploy -> Prometheus Monitoring",
+        "evaluation": "Drift Trigger Accuracy: 100% | Canary Deployment P99 < 50ms",
         "security": "Role-Based Model Promotion & Cryptographic Artifact Signatures",
         "stack": ["Python", "PyTorch", "MLflow", "DVC", "Kubernetes", "FastAPI", "Prometheus"],
         "repoUrl": "https://github.com/josarta/MLOps-Pipeline-Suite",
@@ -207,12 +150,12 @@
         "id": "control-ai-optimizer",
         "title": "Control-AI-Optimizer",
         "category": "control",
-        "subtitle": "Hybrid Neural Network & Dynamic Control Loop Optimizer",
-        "challenge": "Classical PID/MPC controllers degrade under nonlinear dynamic perturbations, while black-box deep learning models lack deterministic safety guarantees.",
-        "solution": "Physics-Informed Neural Network (PINN) architecture providing residual error correction on top of classical stability models, evaluated via a high-throughput C#/Python interop.",
-        "architectureFlow": "Sensor Telemetry -> State Observer (Kalman) -> Classical Feedback Loop + [PINN Residual Corrector] -> Lyapunov Stability Guard -> Actuator Signal -> Physical Plant",
-        "evaluation": "Dynamic Settling Time: -38% | Stability Boundary Violation: 0%",
-        "security": "Deterministic Lyapunov Safeguard Overriding Neural Outputs",
+        "subtitle": "Physics-Informed Neural Network for Real-Time Control Loops",
+        "challenge": "Standard PID controllers degrade under severe non-linear disturbances, while purely neural controllers lack formal stability guarantees.",
+        "solution": "Physics-Informed Neural Network (PINN) acting as a residual error compensator on top of a classic control loop, subject to deterministic Lyapunov stability bounds.",
+        "architectureFlow": "Sensors -> Kalman Filter -> Classic PID + [PINN Residual Corrector] -> Lyapunov Barrier -> Control Signal -> Physical Plant",
+        "evaluation": "Settling Time Reduction: -38% | Stability Boundary Violations: 0%",
+        "security": "Deterministic Lyapunov Guardian overriding out-of-bound neural outputs",
         "stack": ["Python", "PyTorch", "C#", "Control Theory", "Docker", "PINNs"],
         "repoUrl": "https://github.com/josarta/Control-AI-Optimizer",
         "cloneCmd": "git clone https://github.com/josarta/Control-AI-Optimizer.git"
@@ -221,49 +164,22 @@
         "id": "local-ai-agent-terminal",
         "title": "Local-AI-Agent-Terminal",
         "category": "llm",
-        "subtitle": "Privacy-Preserving Agentic Developer Workspace",
-        "challenge": "High API latency, compliance and data sovereignty constraints, and lack of contextual syntax comprehension when running agents on private enterprise codebases.",
-        "solution": "Autonomous terminal runtime running 100% offline via local LLM backends (Ollama), powered by Tree-sitter AST parsing, function-level semantic indexing, and an execution sandbox.",
-        "architectureFlow": "Local Shell Prompt -> Tree-sitter Code Parser -> AST Dependency Graph -> Scratchpad Memory Buffer -> Local Ollama Ingestion -> Sandboxed Diff Execution -> Git Commit Verify",
-        "evaluation": "AST Parsing Speed: < 8ms | Context Precision: 94% | 100% Air-Gapped",
-        "security": "Zero-Egress Sandboxed Execution & Strict Local AST Scope",
+        "subtitle": "100% Offline & Private AI Coding Assistant CLI",
+        "challenge": "Cloud-based AI assistants violate data privacy constraints in sensitive environments and introduce network latency bottlenecks.",
+        "solution": "Autonomous terminal tool running local models via Ollama, parsing repository AST structures with Tree-sitter, and applying diffs inside a secure sandbox.",
+        "architectureFlow": "Prompt -> AST Parser (Tree-sitter) -> Symbol Graph -> Context Memory -> Local LLM (Ollama) -> Sandbox Apply -> Git Check",
+        "evaluation": "AST Parse Latency: < 8ms | Context Precision: 94% | 100% Offline",
+        "security": "Sandboxed File Operations with No External Network Calls & AST Boundary",
         "stack": ["Python", "Ollama", "Tree-sitter", "Rich CLI", "FastAPI"],
         "repoUrl": "https://github.com/josarta/Local-AI-Agent-Terminal",
         "cloneCmd": "git clone https://github.com/josarta/Local-AI-Agent-Terminal.git"
       }
     ]
   },
-  "principles": {
-    "tag": "ENGINEERING CULTURE",
-    "title": "Engineering Principles",
-    "description": "Core mental models that guide how I architect systems and production AI.",
-    "items": [
-      {
-        "num": "01",
-        "title": "Reliability before complexity",
-        "text": "A sophisticated AI system that cannot be observed, measured, or recovered under failure is not production-ready."
-      },
-      {
-        "num": "02",
-        "title": "Measure before optimizing",
-        "text": "Latency, token cost, retrieval recall, and grounding quality require rigorous instrumentation before tuning."
-      },
-      {
-        "num": "03",
-        "title": "Probabilistic AI, deterministic boundaries",
-        "text": "Neural models can be probabilistic. Critical system constraints, guardrails, and financial state transitions must be deterministic."
-      },
-      {
-        "num": "04",
-        "title": "Every failure becomes an evaluation",
-        "text": "Production incidents and unexpected edge cases must immediately feed back into automated evaluation and regression suites."
-      }
-    ]
-  },
   "timeline": {
     "tag": "PRODUCTION TRACK RECORD",
     "title": "Production Experience & Systems Leadership",
-    "description": "15+ years of verified software engineering, mission-critical financial SRE leadership, and intelligent systems.",
+    "description": "15+ years of verified software engineering, mission-critical financial SRE, and intelligent systems leadership.",
     "roles": [
       {
         "period": "AUG 2024 — PRESENT",
@@ -272,9 +188,9 @@
         "location": "Bogotá, Colombia",
         "domain": "Digital Banking & Corporate Channels",
         "highlights": [
-          "Senior technical leader responsible for overseeing platform stability, driving automation, and aligning infrastructure reliability with business goals.",
-          "Direct 99.99% SLA availability leadership over mission-critical corporate financial channels (Net Cash, SENDA) serving millions of recurring users.",
-          "Engineered real-time telemetry, advanced observability pipelines, and automated incident prevention frameworks."
+          "Senior technical leadership governing platform stability, engineering automation, and aligning reliability with core business outcomes.",
+          "Direct oversight of 99.99% SLA availability for critical enterprise channels (Net Cash, SENDA) serving millions of recurring corporate users.",
+          "Implemented real-time telemetry, advanced observability, and systematic operational toil reduction across distributed microservices."
         ]
       },
       {
@@ -284,9 +200,9 @@
         "location": "Bogotá, Colombia",
         "domain": "Scientific Simulation & Distributed Backends",
         "highlights": [
-          "Engineered high-performance distributed backend architectures and scientific simulation modules.",
-          "Championed modern agile engineering standards, microservices decoupling, and automated observability.",
-          "Collaborated across international engineering teams to scale core financial processing engines."
+          "Designed and built high-performance distributed backend architectures and scientific simulation modules.",
+          "Championed modern agile engineering standards, microservice decoupling, and continuous observability.",
+          "Collaborated with international teams to scale core financial processing engines."
         ]
       },
       {
@@ -296,27 +212,27 @@
         "location": "Buenos Aires / Bogotá",
         "domain": "High-Volume E-Commerce Platform",
         "highlights": [
-          "Developed high-traffic distributed microservices and reactive interfaces supporting millions of daily transactions and recurring users.",
-          "Integrated resilient backend APIs (Java / Spring) with high-speed React frontends under tight availability and latency standards.",
-          "Led complex technical incident investigations and cross-service resilience enhancements."
+          "Engineered distributed microservices and reactive user interfaces supporting millions of daily active users and concurrent transactions.",
+          "Integrated resilient backend APIs (Java / Spring) with React frontends under strict availability and low-latency requirements.",
+          "Led complex incident troubleshooting and cross-service resilience hardening."
         ]
       },
       {
         "period": "PREVIOUS FOUNDATIONS",
-        "role": "Senior Enterprise Engineer & Technical Researcher",
+        "role": "Senior Enterprise Engineer & Applied Researcher",
         "company": "Novatec Solutions / VASS / SENA Research",
         "location": "Bogotá, Colombia",
         "domain": "Software Architecture & Applied Simulation",
         "highlights": [
-          "Architected large-scale enterprise portals and transactional systems with Java, React, and relational data engines.",
-          "Authored applied research simulators for financial learning and algorithmic process modeling at SENA CSF."
+          "Architected large-scale enterprise portals and transactional systems with Java, React, and relational databases.",
+          "Created applied research simulators for financial training and process modeling at SENA CSF."
         ]
       }
     ]
   },
   "openTo": {
     "tag": "OPPORTUNITIES",
-    "title": "Open to Target Roles",
+    "title": "Opportunities & Target Roles",
     "roles": [
       "AI Systems Engineer",
       "Staff Technical Lead",
@@ -328,53 +244,53 @@
   },
   "recruiter": {
     "tag": "RECRUITER FAST-TRACK",
-    "title": "Staff Technical Briefing & CV",
-    "description": "High-density technical briefing engineered for Hiring Managers, Directors, and Technical Recruiters at Tier-1 AI Companies.",
-    "openModalBtn": "Launch Staff Overview",
+    "title": "Staff Technical Brief & CV",
+    "description": "High-density technical executive summary designed for Engineering Directors, Staff Engineers, and Technical Recruiters at Tier-1 AI companies.",
+    "openModalBtn": "View Staff Brief",
     "printCVBtn": "Print / Export Staff PDF",
     "copyEmailBtn": "Copy Direct Email",
     "scheduleCall": "Schedule Technical Call ↗",
     "modal": {
-      "title": "Staff Technical Briefing",
+      "title": "Staff Executive Technical Brief",
       "subtitle": "José Luis Sarta Álvarez | Senior Software Expert & High-Throughput SRE Lead | MSc in AI Candidate",
-      "summary": "15+ years of software and systems engineering excellence, uniquely bridging Electronic Control & Instrumentation with Frontier Artificial Intelligence and high-throughput financial SRE (99.99% SLA). Specialized in deterministic distributed systems, agentic RAG, and production platform reliability.",
+      "summary": "Senior Technical Leader and AI Systems Engineer with 15+ years of experience. Combining Electronic Control Engineering rigor with cutting-edge Artificial Intelligence and SRE leadership in high-throughput financial platforms (99.99% SLA). Specializing in deterministic distributed systems, agentic RAG, and production AI reliability.",
       "metrics": [
         { "value": "99.99%", "label": "Financial SLA Maintained" },
-        { "value": "15+ Yrs", "label": "Systems Experience" },
+        { "value": "15+ Yrs", "label": "Systems Track Record" },
         { "value": "MSc AI", "label": "UniAndes (2025–2026)" },
         { "value": "Eng.", "label": "Electronic Control" }
       ],
       "education": [
         {
-          "degree": "MSc in Artificial Intelligence",
+          "degree": "Master of Science in Artificial Intelligence",
           "institution": "Universidad de los Andes (UniAndes)",
           "period": "2025 – 2026",
-          "focus": "Deep Learning, Multi-Agent Systems, MLOps, Mathematical Optimization, AI Ethics"
+          "focus": "Deep Learning, Multi-Agent Systems, MLOps, Mathematical Optimization, Applied AI Ethics"
         },
         {
-          "degree": "B.Sc. Electronic Control Engineering",
+          "degree": "Electronic Control Engineer",
           "institution": "Universidad Distrital Francisco José de Caldas",
           "period": "2015 – 2020",
-          "focus": "Multivariable Control, System Identification, Robotics, Embedded Real-Time Systems"
+          "focus": "Multivariable Control, System Identification, Robotics, Real-Time Embedded Systems"
         },
         {
-          "degree": "Specialist Technologist in Control & Electronic Instrumentation",
+          "degree": "Electronics Technologist (Control & Instrumentation)",
           "institution": "Universidad Distrital Francisco José de Caldas",
           "period": "2001 – 2008",
           "focus": "Industrial Instrumentation, Analog/Digital Electronics, Telemetry"
         }
       ],
       "skillsMatrix": {
-        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluation & Tracing",
-        "systems": "High-Throughput SRE, 99.99% SLA, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, State-Space, Embedded Telemetry & Kinematics"
+        "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluation & Traces",
+        "systems": "High-Throughput SRE, 99.99% SLA, Automation, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
+        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, State-Space, Telemetry & Kinematics"
       },
       "directContact": {
         "email": "josarta@gmail.com",
         "phone": "+57 310 795 1006",
         "linkedin": "linkedin.com/in/josarta",
         "github": "github.com/josarta",
-        "location": "Bogotá, Colombia (Available for Global / Remote / Relocation)"
+        "location": "Bogotá, Colombia (Available for Global Remote or Relocation)"
       }
     }
   },
@@ -382,16 +298,16 @@
     "title": "Let's build something reliable.",
     "subtitle": "AI systems are becoming production systems. I care about making them reliable, observable, and scalable.",
     "ctaTalk": "Schedule Technical Call ↗",
-    "ctaCV": "Download Staff CV (PDF)",
+    "ctaCV": "Download Executive CV (PDF)",
     "ctaEmail": "Copy Direct Email"
   },
   "footer": {
-    "status": "SYSTEM TELEMETRY: ALL SERVICES HEALTHY",
+    "status": "SYSTEM STATUS: OPTIMAL",
     "copyright": "© 2026 José Luis Sarta Álvarez. Senior Software Expert · SRE Lead · MSc AI · Electronic Control Engineer.",
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
-      "email": "Email Direct",
+      "email": "Direct Email",
       "portfolio": "Live Portfolio"
     }
   }

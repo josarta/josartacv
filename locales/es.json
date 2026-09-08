@@ -1,13 +1,11 @@
 {
   "nav": {
-    "title": "José Sarta",
-    "badge": "AI Systems & SRE",
+    "title": "Josarta",
+    "badge": "AI Systems",
     "links": {
-      "whatIBuild": "Plataformas & IA",
+      "whatIBuild": "Cómo Aporto Valor",
       "architecture": "Casos de Estudio",
-      "pipeline": "IA en Producción",
       "experience": "Experiencia",
-      "principles": "Principios",
       "recruiter": "Staff CV"
     },
     "cta": "Agendar Llamada ↗",
@@ -15,7 +13,7 @@
     "status": "OPERACIONAL"
   },
   "hero": {
-    "statusIndicator": "● DISPONIBLE PARA ROLES TIER-1 • SRE EN APLICACIONES CRÍTICAS DE ALTA TRANSACCIONALIDAD • WORKFLOWS AGÉNTICOS",
+    "statusIndicator": "● SOFTWARE ENGINEER • ME GUSTA MANEJAR MI BICICLETA • ADICTO AL CAFÉ",
     "taglineConcept": "De Sistemas Confiables a IA Confiable.",
     "portrait": {
       "status": "ONLINE",
@@ -23,32 +21,35 @@
       "degree": "MSc IA"
     },
     "telemetry": {
-      "systemState": "ESTABLE",
-      "uptime": "99.99% SLA",
-      "latency": "P99 < 12ms",
-      "aiDomain": "Maestría en IA @ UniAndes"
+      "systemState": "PRODUCTION READY",
+      "uptime": "HIGH AVAILABILITY",
+      "core": "Control & AI Systems"
     },
-    "headlinePrefix": "Rigor de",
-    "headlineHighlight": "Sistemas de Control",
-    "headlineSuffix": "aplicado a IA de Alta Transaccionalidad en Producción.",
-    "subheadline": "Senior Software Expert & SRE Lead especializado en aplicaciones críticas de alta transaccionalidad y disponibilidad bancaria (99.99% SLA). Integro las bases de la Ingeniería en Control Electrónico con la Maestría en Inteligencia Artificial para diseñar sistemas distribuidos deterministas, pipelines RAG agénticos de baja latencia e infraestructura de IA resiliente a escala.",
-    "stackPills": ["SRE Alta Transaccionalidad", "RAG Agéntico", "Sistemas Distribuidos", "Ciclo MLOps", "Control en Lazo Cerrado", "vLLM & Qdrant"],
-    "ctaExplore": "Explorar Sistemas en Producción ↘",
-    "ctaArchitecture": "Ciclo de IA en Producción ↘",
+    "headline": "Mi objetivo nunca fue simplemente demostrar que sé escribir código, sino evidenciar cómo transformar la <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">Inteligencia Artificial</span> en impacto medible de negocio, alta disponibilidad y retorno tangible en producción.",
+    "subheadline": "Senior Software Expert & SRE Lead especializado en sistemas críticos de alta transaccionalidad, con maestría en IA e ingeniería en control electrónico. Domino el ciclo de vida completo de Deep Learning y GenAI—orquestando modelos con PyTorch, TensorFlow, pipelines RAG con LangChain/LlamaIndex y MLOps empresarial en Kubernetes y MLflow. Mi valor diferencial reside en conectar el rigor matemático y la ingeniería robusta con un propósito real: liderar equipos con empatía y diseñar arquitecturas de IA éticas, transparentes y confiables que generen un impacto positivo y tangible en las personas.",
+    "stackPills": [
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "Habilidades en LLM",
+      "Arquitecturas RAG",
+      "Docker y FastAPI"
+    ],
+    "ctaExplore": "Explorar Arquitecturas ↘",
     "ctaDownloadCV": "Descargar CV Ejecutivo (PDF)",
     "ctaTalk": "Agendar Llamada Técnica ↗",
     "terminal": {
-      "header": "sarta@core-system: ~/telemetria",
+      "header": "josarta@core-system: ~/telemetria",
       "line1": "INICIALIZANDO AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "SUPERVISIÓN DE PLATAFORMAS DE ALTA TRANSACCIONALIDAD (99.99% SLA)... [SINCRONIZADO]",
+      "line2": "SUPERVISIÓN DE PLATAFORMAS DE ALTA DISPONIBILIDAD... [SINCRONIZADO]",
       "line3": "CARGANDO ORQUESTACIÓN MULTI-AGENTE & EVALUACIÓN... [ACTIVO]",
-      "line4": "SISTEMA LISTO: Rigor de Control Electrónico aplicado a IA en Producción."
+      "line4": "SISTEMA LISTO: Transformando IA en impacto medible y confiable."
     }
   },
   "whatIBuild": {
-    "tag": "PILARES DE INGENIERÍA & SRE",
-    "title": "Plataformas, Automatización e IA",
-    "description": "Supervisión de estabilidad, reducción de carga operativa y despliegue de modelos de inteligencia artificial con guardrails deterministas.",
+    "tag": "CÓMO APORTO VALOR",
+    "title": "Simplificar lo Complejo mediante Automatización e IA",
+    "description": "Ayudo a los equipos a trabajar mejor eliminando la fricción diaria y transformando la Inteligencia Artificial en una herramienta transparente, cercana y útil para los usuarios.",
     "pillars": [
       {
         "id": "agents",
@@ -81,31 +82,15 @@
     ]
   },
   "bento": {
-    "tag": "LA VENTAJA TÉCNICA",
-    "title": "Por Qué Control & SRE Importan para la IA",
-    "description": "Los sistemas de IA son probabilísticos. La ingeniería de control y SRE me enseñaron a razonar sobre estabilidad, realimentación dinámica, incertidumbre y barreras deterministas.",
+    "tag": "MI ENFOQUE PROFESIONAL",
+    "title": "Transformar la Incertidumbre de la IA en Confianza para las Personas",
+    "description": "Los modelos de IA son por naturaleza probabilísticos y cambiantes; la ingeniería de control me enseñó la disciplina de no dejar nada al azar. En mi carrera he aprendido a poner límites seguros a esa incertidumbre, transformando algoritmos avanzados en soluciones estables, éticas y tranquilas para quienes dependen de ellas a diario.",
     "cards": {
-      "sre": {
-        "badge": "MISIÓN CRÍTICA",
-        "title": "SRE & Escala de Misión Crítica",
-        "metric": "99.99% SLA",
-        "metricLabel": "Canales Bancarios con Millones de Usuarios Recurrentes",
-        "description": "Service Reliability Lead liderando la estabilidad y automatización de canales bancarios transaccionales (Net Cash, SENDA). Llevando la disciplina de sistemas distribuidos, despliegues zero-downtime y observabilidad a la IA en producción.",
-        "pills": ["Gobernanza SRE", "OpenTelemetry", "Zero-Downtime", "Manejo de Incidentes"]
-      },
-      "control": {
-        "badge": "ADN DE INGENIERÍA",
-        "title": "ADN en Ingeniería de Control",
-        "metric": "ADN Control",
-        "metricLabel": "Estabilidad en Lazo Cerrado & Espacio de Estados",
-        "description": "Ingeniero en Control Electrónico con bases en realimentación multivariable, estabilidad de Lyapunov, modelos en espacio de estados, telemetría embebida y Redes Neuronales Informadas por la Física (PINNs) para garantizar cotas deterministas en modelos neurales.",
-        "pills": ["Control Multivariable", "Optimización PINNs", "Cotas Lyapunov", "Telemetría Embebida"]
-      },
       "ai": {
         "badge": "ACADÉMICO & INVESTIGACIÓN",
         "title": "Núcleo de IA & Agentes (MSc UniAndes)",
         "metric": "UniAndes",
-        "metricLabel": "Candidato (2025–2026)",
+        "metricLabel": "Candidato a Magíster (2025–2026)",
         "description": "Especialización de posgrado en la Universidad de los Andes en deep learning, optimización matemática, sistemas multi-agente y ética aplicada en IA en producción.",
         "pills": ["Deep Learning", "Sistemas Multi-Agente", "Optimización", "Ética en IA"]
       },
@@ -119,52 +104,10 @@
       }
     }
   },
-  "pipeline": {
-    "tag": "CICLO DE PRODUCCIÓN",
-    "title": "Ingeniería de IA en Producción",
-    "description": "Construir sistemas de IA va más allá de un demo con un LLM. Requiere evaluación, observabilidad, seguridad y confiabilidad en cada etapa.",
-    "steps": [
-      {
-        "step": "01",
-        "title": "MODELO",
-        "desc": "LLMs Locales y Cloud (GPT, Llama, Mistral, vLLM)"
-      },
-      {
-        "step": "02",
-        "title": "CONTEXTO",
-        "desc": "RAG Híbrido (Vectorial Denso + BM25 Disperso) & Re-ranking"
-      },
-      {
-        "step": "03",
-        "title": "ORQUESTACIÓN",
-        "desc": "Flujos Multi-Agente, Tool Calling y Lazos de Fallback"
-      },
-      {
-        "step": "04",
-        "title": "EVALUACIÓN",
-        "desc": "Métricas de Grounding, Precisión, Recall, Latencia y Costos"
-      },
-      {
-        "step": "05",
-        "title": "OBSERVABILIDAD",
-        "desc": "Trazas OpenTelemetry, Métricas, Logs y Perfiles de Latencia"
-      },
-      {
-        "step": "06",
-        "title": "INFRAESTRUCTURA",
-        "desc": "Docker, Canarios en Kubernetes, Guardrails y Seguridad"
-      },
-      {
-        "step": "07",
-        "title": "CONFIABILIDAD",
-        "desc": "SLA 99.99%, Recuperación de Fallos, Rate Limiting & Probes"
-      }
-    ]
-  },
   "projects": {
-    "tag": "CASOS DE ESTUDIO DE ARQUITECTURA",
-    "title": "Casos de Estudio de Ingeniería Seleccionados",
-    "description": "Plataformas y sistemas reales diseñados con enfoque en escalabilidad, soberanía de datos y rigor matemático.",
+    "tag": "DE LA INVESTIGACIÓN AL IMPACTO REAL",
+    "title": "Arquitecturas de IA & Sistemas de Control",
+    "description": "Casos prácticos donde integro modelos agénticos, pipelines MLOps de alta disponibilidad y sistemas físicos deterministas diseñados para operar de forma segura y medible.",
     "filters": {
       "all": "#Todos",
       "llm": "#LLMs-y-Agentes",
@@ -233,33 +176,6 @@
       }
     ]
   },
-  "principles": {
-    "tag": "CULTURA DE INGENIERÍA",
-    "title": "Principios de Ingeniería",
-    "description": "Modelos mentales fundamentales que guían cómo diseño sistemas e inteligencia artificial en producción.",
-    "items": [
-      {
-        "num": "01",
-        "title": "Confiabilidad antes que complejidad",
-        "text": "Un sistema de IA sofisticado que no puede observarse, medirse o recuperarse ante fallos no está listo para producción."
-      },
-      {
-        "num": "02",
-        "title": "Medir antes de optimizar",
-        "text": "La latencia, el costo de tokens, el recall de recuperación y la calidad de grounding requieren instrumentación rigurosa antes de ajustar."
-      },
-      {
-        "num": "03",
-        "title": "IA probabilística, barreras deterministas",
-        "text": "Los modelos pueden ser probabilísticos. Las restricciones críticas del sistema, los guardrails y las transiciones financieras deben ser deterministas."
-      },
-      {
-        "num": "04",
-        "title": "Cada fallo se convierte en una evaluación",
-        "text": "Los incidentes de producción y casos límite inesperados deben alimentar de inmediato las suites automatizadas de evaluación y regresión."
-      }
-    ]
-  },
   "timeline": {
     "tag": "TRAYECTORIA EN PRODUCCIÓN",
     "title": "Experiencia en Producción & Liderazgo de Sistemas",
@@ -316,7 +232,7 @@
   },
   "openTo": {
     "tag": "OPORTUNIDADES",
-    "title": "Abierto a Roles de Enfoque",
+    "title": "Oportunidades y Roles de Interés",
     "roles": [
       "AI Systems Engineer",
       "Staff Technical Lead",
@@ -386,7 +302,7 @@
     "ctaEmail": "Copiar Correo Directo"
   },
   "footer": {
-    "status": "TELEMETRÍA DE SISTEMA: SERVICIOS OPERACIONALES",
+    "status": "SYSTEM STATUS: OPTIMAL",
     "copyright": "© 2026 José Luis Sarta Álvarez. Senior Software Expert · SRE Lead · MSc IA · Electronic Control Engineer.",
     "links": {
       "github": "GitHub",

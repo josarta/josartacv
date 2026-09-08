@@ -1,15 +1,14 @@
 /**
- * What I Build & Principles Controller
- * Renders core pillars, production lifecycle pipeline, and engineering principles.
+ * Content Sections Controller
+ * Renders core pillars, open-to roles, and dynamic hero stack pills.
  */
 
 export class ContentSectionsController {
   constructor(i18nManager) {
     this.i18n = i18nManager;
     this.pillarsContainer = document.getElementById('pillars-grid');
-    this.principlesContainer = document.getElementById('principles-grid');
-    this.pipelineContainer = document.getElementById('pipeline-grid');
     this.openToContainer = document.getElementById('opento-grid');
+    this.heroStackContainer = document.getElementById('hero-stack-pills');
 
     this.init();
   }
@@ -22,10 +21,21 @@ export class ContentSectionsController {
   }
 
   render() {
+    this.renderHeroStack();
     this.renderPillars();
-    this.renderPipeline();
-    this.renderPrinciples();
     this.renderOpenTo();
+  }
+
+  renderHeroStack() {
+    if (!this.heroStackContainer) return;
+    const stack = this.i18n.t('hero.stackPills');
+    if (!Array.isArray(stack)) return;
+
+    this.heroStackContainer.innerHTML = stack.map(pill => `
+      <span class="px-2.5 py-1 text-[11px] font-mono bg-zinc-900/80 text-zinc-300 rounded-md border border-zinc-800 shadow-sm">
+        ${pill}
+      </span>
+    `).join('');
   }
 
   renderPillars() {
@@ -59,43 +69,6 @@ export class ContentSectionsController {
     `).join('');
   }
 
-  renderPipeline() {
-    if (!this.pipelineContainer) return;
-    const steps = this.i18n.t('pipeline.steps');
-    if (!Array.isArray(steps)) return;
-
-    this.pipelineContainer.innerHTML = steps.map((s, idx) => `
-      <div class="relative flex flex-col items-center text-center p-3.5 sm:p-4 rounded-xl bg-zinc-950/70 border border-white/5 group hover:border-emerald-500/40 transition-all">
-        <div class="w-7 h-7 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono font-bold text-xs flex items-center justify-center mb-2">
-          ${s.step}
-        </div>
-        <div class="text-xs font-bold text-white font-mono tracking-tight mb-1">${s.title}</div>
-        <div class="text-[11px] text-zinc-400 leading-snug">${s.desc}</div>
-      </div>
-    `).join('');
-  }
-
-  renderPrinciples() {
-    if (!this.principlesContainer) return;
-    const items = this.i18n.t('principles.items');
-    if (!Array.isArray(items)) return;
-
-    this.principlesContainer.innerHTML = items.map(item => `
-      <div class="spotlight-card glass-panel p-5 sm:p-6 border border-white/10 flex flex-col justify-between" data-reveal-item>
-        <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold mb-2">
-          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-          <span>PRINCIPLE ${item.num}</span>
-        </div>
-        <h3 class="text-base sm:text-lg font-bold text-white mb-2">
-          ${item.title}
-        </h3>
-        <p class="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-          ${item.text}
-        </p>
-      </div>
-    `).join('');
-  }
-
   renderOpenTo() {
     if (!this.openToContainer) return;
     const roles = this.i18n.t('openTo.roles');
@@ -108,4 +81,3 @@ export class ContentSectionsController {
     `).join('');
   }
 }
-
