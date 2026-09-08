@@ -76,6 +76,40 @@
 </head>
 <body class="bg-[#07080a] text-zinc-100 min-h-screen relative font-sans antialiased overflow-x-hidden selection:bg-emerald-500/30 selection:text-white">
 
+  <!-- MISSION CONTROL INITIAL BOOT SEQUENCE & QUANTUM GYROSCOPE PRELOADER -->
+  <div id="system-preloader" class="fixed inset-0 z-[99999] bg-[#050608] flex flex-col items-center justify-center p-6 text-center select-none">
+    <div class="absolute inset-0 scanline-overlay pointer-events-none opacity-40"></div>
+    
+    <!-- Multi-Axis Quantum Gyroscope Spinner -->
+    <div class="quantum-spinner mb-7">
+      <div class="quantum-ring quantum-ring-1"></div>
+      <div class="quantum-ring quantum-ring-2"></div>
+      <div class="quantum-ring quantum-ring-3"></div>
+      <div class="quantum-core"></div>
+    </div>
+
+    <!-- Live Telemetry Boot Diagnostics -->
+    <div class="max-w-md w-full space-y-3 relative z-10">
+      <div class="flex items-center justify-between font-mono text-xs text-zinc-400 border-b border-white/10 pb-2">
+        <span class="flex items-center gap-2">
+          <span class="telemetry-pulse-dot"></span>
+          <span class="text-emerald-400 font-bold tracking-wider">JOSARTA AI_CORE v3.0</span>
+        </span>
+        <span id="preloader-progress-text" class="text-cyan-400 font-bold">0%</span>
+      </div>
+
+      <!-- Real-time Progress Bar -->
+      <div class="w-full h-1.5 bg-zinc-900 rounded-full overflow-hidden border border-white/5 shadow-inner">
+        <div id="preloader-progress-bar" class="h-full bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400 w-0 transition-all duration-75 shadow-lg shadow-emerald-500/50"></div>
+      </div>
+
+      <!-- Live Stream Status Text -->
+      <div id="preloader-status-text" class="font-mono text-[11px] text-zinc-400 uppercase tracking-wider truncate h-5">
+        INITIALIZING AI_SYSTEMS_CORE v3.0...
+      </div>
+    </div>
+  </div>
+
   <!-- Ambient Engineering Canvas & Glow Backdrops -->
   <canvas id="telemetry-canvas" class="fixed inset-0 pointer-events-none z-0 w-full h-full opacity-60"></canvas>
   <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[600px] sm:w-[850px] h-[350px] radial-glow-cyan pointer-events-none z-0"></div>

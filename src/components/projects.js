@@ -31,9 +31,25 @@ export class ProjectsController {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
         const filter = btn.getAttribute('data-filter') || 'all';
+        if (this.currentFilter === filter) return;
+
         this.currentFilter = filter;
         this.updateFilterButtonsUI();
-        this.render();
+
+        // Brief tactical micro-loader transition
+        if (this.cardsContainer) {
+          this.cardsContainer.style.opacity = '0.4';
+          this.cardsContainer.style.transform = 'scale(0.99)';
+          this.cardsContainer.style.transition = 'all 0.18s ease';
+        }
+
+        setTimeout(() => {
+          this.render();
+          if (this.cardsContainer) {
+            this.cardsContainer.style.opacity = '1';
+            this.cardsContainer.style.transform = 'scale(1)';
+          }
+        }, 120);
       });
     });
   }
@@ -162,21 +178,43 @@ export class ProjectsController {
       </div>
     `).join('');
 
-    // Attach copy button events
+    // Attach copy button events with tactile micro-spinner feedback
     this.cardsContainer.querySelectorAll('.copy-clone-btn').forEach(btn => {
       btn.addEventListener('click', async () => {
         const cmd = btn.getAttribute('data-cmd');
         const textSpan = btn.querySelector('.btn-text');
+        
+        // 1. Show micro-spinner during transaction
+        const origHtml = btn.innerHTML;
+        btn.innerHTML = `
+          <span class="inline-micro-spinner mr-1"></span>
+          <span class="text-[11px] font-mono text-cyan-300">SYNCING...</span>
+        `;
+        btn.disabled = true;
+
         try {
           await navigator.clipboard.writeText(cmd);
-          textSpan.textContent = copiedText;
-          btn.classList.add('border-emerald-500', 'text-emerald-400');
+          
+          // 2. Show verified state
           setTimeout(() => {
-            textSpan.textContent = clonePromptText;
-            btn.classList.remove('border-emerald-500', 'text-emerald-400');
-          }, 2000);
+            btn.innerHTML = `
+              <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span class="text-[11px] font-mono text-emerald-400 font-bold">${copiedText}</span>
+            `;
+            btn.classList.add('border-emerald-500/80', 'bg-emerald-500/10');
+            
+            setTimeout(() => {
+              btn.innerHTML = origHtml;
+              btn.disabled = false;
+              btn.classList.remove('border-emerald-500/80', 'bg-emerald-500/10');
+            }, 2000);
+          }, 220);
         } catch (err) {
           console.error('Clipboard copy failed:', err);
+          btn.innerHTML = origHtml;
+          btn.disabled = false;
         }
       });
     });

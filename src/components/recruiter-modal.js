@@ -51,20 +51,31 @@ export class RecruiterModalController {
     if (this.copyEmailBtn) {
       this.copyEmailBtn.addEventListener('click', async () => {
         const email = 'josarta@gmail.com';
+        const orig = this.copyEmailBtn.innerHTML;
+        this.copyEmailBtn.innerHTML = `
+          <span class="inline-micro-spinner mr-1"></span>
+          <span class="font-mono text-cyan-300">COPYING...</span>
+        `;
+        this.copyEmailBtn.disabled = true;
+
         try {
           await navigator.clipboard.writeText(email);
-          const orig = this.copyEmailBtn.innerHTML;
-          this.copyEmailBtn.innerHTML = `
-            <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-            </svg>
-            <span>Copied josarta@gmail.com!</span>
-          `;
           setTimeout(() => {
-            this.copyEmailBtn.innerHTML = orig;
-          }, 2500);
+            this.copyEmailBtn.innerHTML = `
+              <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span class="text-emerald-400 font-bold">Copied josarta@gmail.com!</span>
+            `;
+            setTimeout(() => {
+              this.copyEmailBtn.innerHTML = orig;
+              this.copyEmailBtn.disabled = false;
+            }, 2500);
+          }, 200);
         } catch (err) {
           console.error(err);
+          this.copyEmailBtn.innerHTML = orig;
+          this.copyEmailBtn.disabled = false;
         }
       });
     }

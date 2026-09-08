@@ -98,7 +98,12 @@ class I18nManager {
     // Update Lang Switcher labels
     const langToggles = document.querySelectorAll('.lang-toggle-btn');
     langToggles.forEach(btn => {
-      btn.textContent = this.currentLang === 'en' ? 'ES' : 'EN';
+      btn.innerHTML = `
+        <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+        </svg>
+        <span class="lang-label font-bold">${this.currentLang === 'en' ? 'ES' : 'EN'}</span>
+      `;
     });
   }
 
@@ -106,7 +111,16 @@ class I18nManager {
     document.querySelectorAll('.lang-toggle-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
-        this.toggleLanguage();
+        
+        // Tactile micro-spinner animation during language dictionary swap
+        btn.innerHTML = `
+          <span class="inline-micro-spinner mr-1"></span>
+          <span class="text-emerald-400 font-mono text-[10px]">SYNC</span>
+        `;
+        
+        setTimeout(() => {
+          this.toggleLanguage();
+        }, 180);
       });
     });
   }

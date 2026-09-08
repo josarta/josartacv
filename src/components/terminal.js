@@ -73,29 +73,40 @@ export class TerminalController {
     inputLine.innerHTML = `<span class="text-emerald-400">josarta@core:~$</span> ${this.escapeHtml(cmd)}`;
     this.logsEl.appendChild(inputLine);
 
-    let output = '';
-    if (this.commands[cmd]) {
-      output = this.commands[cmd]();
-    } else {
-      output = `<span class="text-rose-400">Command not recognized: "${this.escapeHtml(cmd)}". Type <span class="text-cyan-400">help</span> for commands.</span>`;
-    }
-
-    if (output !== null) {
-      const responseLine = document.createElement('div');
-      responseLine.className = 'text-gray-300 font-mono text-xs pl-2 border-l border-emerald-500/40 my-1 leading-relaxed';
-      responseLine.innerHTML = output;
-      this.logsEl.appendChild(responseLine);
-
-      // Re-bind modal triggers inside output if any
-      responseLine.querySelectorAll('.open-recruiter-modal-btn').forEach(b => {
-        b.addEventListener('click', () => {
-          const overlay = document.getElementById('recruiter-modal-overlay');
-          if (overlay) overlay.classList.remove('hidden');
-        });
-      });
-    }
-
+    // Show micro-spinner indicator during processing
+    const loadingLine = document.createElement('div');
+    loadingLine.className = 'text-cyan-400 font-mono text-xs pl-2 my-1 flex items-center gap-1.5';
+    loadingLine.innerHTML = `<span class="inline-micro-spinner"></span> <span class="text-[11px] text-zinc-400">PROCESSING INFERENCE...</span>`;
+    this.logsEl.appendChild(loadingLine);
     this.logsEl.scrollTop = this.logsEl.scrollHeight;
+
+    setTimeout(() => {
+      loadingLine.remove();
+
+      let output = '';
+      if (this.commands[cmd]) {
+        output = this.commands[cmd]();
+      } else {
+        output = `<span class="text-rose-400">Command not recognized: "${this.escapeHtml(cmd)}". Type <span class="text-cyan-400">help</span> for commands.</span>`;
+      }
+
+      if (output !== null) {
+        const responseLine = document.createElement('div');
+        responseLine.className = 'text-gray-300 font-mono text-xs pl-2 border-l border-emerald-500/40 my-1 leading-relaxed';
+        responseLine.innerHTML = output;
+        this.logsEl.appendChild(responseLine);
+
+        // Re-bind modal triggers inside output if any
+        responseLine.querySelectorAll('.open-recruiter-modal-btn').forEach(b => {
+          b.addEventListener('click', () => {
+            const overlay = document.getElementById('recruiter-modal-overlay');
+            if (overlay) overlay.classList.remove('hidden');
+          });
+        });
+      }
+
+      this.logsEl.scrollTop = this.logsEl.scrollHeight;
+    }, 140);
   }
 
   escapeHtml(str) {

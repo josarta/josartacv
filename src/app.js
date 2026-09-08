@@ -4,6 +4,7 @@
  */
 
 import { i18n } from './i18n.js';
+import { SystemPreloader } from './components/preloader.js';
 import { CinematicMotionSystem } from './components/cinematic-motion.js';
 import { TelemetryCanvas } from './components/telemetry-canvas.js';
 import { TerminalController } from './components/terminal.js';
@@ -13,10 +14,20 @@ import { RecruiterModalController } from './components/recruiter-modal.js';
 import { ContentSectionsController } from './components/what-i-build.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
-  // 1. Initialize i18n first for instantaneous zero-flicker dictionary binding
+  // 1. Initialize Mission Control Boot Sequence (Quantum Spinner & Telemetry)
+  const preloader = new SystemPreloader({
+    onComplete: () => {
+      // Refresh animations once preloader clears
+      if (window.ScrollTrigger) {
+        window.ScrollTrigger.refresh();
+      }
+    }
+  });
+
+  // 2. Initialize i18n first for instantaneous zero-flicker dictionary binding
   await i18n.init();
 
-  // 2. Initialize Cinematic Motion System (GSAP ScrollTrigger + Snappy reveals)
+  // 3. Initialize Cinematic Motion System (GSAP ScrollTrigger + Snappy reveals)
   const motionSystem = new CinematicMotionSystem();
   motionSystem.init();
 
