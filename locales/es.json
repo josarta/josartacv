@@ -8,41 +8,41 @@
       "pipeline": "IA en Producción",
       "experience": "Experiencia",
       "principles": "Principios",
-      "recruiter": "Fast-Track CV"
+      "recruiter": "Staff CV"
     },
-    "cta": "Contacto",
+    "cta": "Agendar Llamada ↗",
     "langToggle": "EN",
     "status": "OPERACIONAL"
   },
   "hero": {
-    "statusIndicator": "INGENIERÍA DE SISTEMAS IA • SRE LEAD • AUTOMATIZACIÓN INTELIGENTE",
+    "statusIndicator": "● DISPONIBLE PARA ROLES TIER-1 • SRE EN APLICACIONES CRÍTICAS DE ALTA TRANSACCIONALIDAD • WORKFLOWS AGÉNTICOS",
     "taglineConcept": "De Sistemas Confiables a IA Confiable.",
     "portrait": {
       "status": "ONLINE",
-      "sla": "ALTA DISPONIBILIDAD",
+      "sla": "99.99% SLA",
       "degree": "MSc IA"
     },
     "telemetry": {
       "systemState": "ESTABLE",
-      "uptime": "Alta Disp.",
-      "latency": "Baja Latencia",
-      "aiDomain": "MSc en IA @ UniAndes"
+      "uptime": "99.99% SLA",
+      "latency": "P99 < 12ms",
+      "aiDomain": "Maestría en IA @ UniAndes"
     },
-    "headlinePrefix": "Construyendo",
-    "headlineHighlight": "Sistemas de IA",
-    "headlineSuffix": "que Funcionan en Producción.",
-    "subheadline": "Senior SRE Lead & AI Systems Engineer. Lidero la estabilidad de plataformas transaccionales de alto tráfico, impulso la automatización y alineo la confiabilidad de la infraestructura con los objetivos del negocio — uniendo Machine Learning, LLMs, flujos agénticos, observabilidad y rigor de ingeniería en producción.",
-    "stackPills": ["Ingeniería de IA", "LLMs & Agentes", "RAG Híbrido", "MLOps", "SRE Distribuido", "Sistemas de Control"],
-    "ctaExplore": "Explorar Mis Proyectos IA",
-    "ctaArchitecture": "Ver Casos de Arquitectura",
-    "ctaDownloadCV": "Descargar CV",
-    "ctaTalk": "Hablemos de Sistemas de IA",
+    "headlinePrefix": "Rigor de",
+    "headlineHighlight": "Sistemas de Control",
+    "headlineSuffix": "aplicado a IA de Alta Transaccionalidad en Producción.",
+    "subheadline": "Senior Software Expert & SRE Lead especializado en aplicaciones críticas de alta transaccionalidad y disponibilidad bancaria (99.99% SLA). Integro las bases de la Ingeniería en Control Electrónico con la Maestría en Inteligencia Artificial para diseñar sistemas distribuidos deterministas, pipelines RAG agénticos de baja latencia e infraestructura de IA resiliente a escala.",
+    "stackPills": ["SRE Alta Transaccionalidad", "RAG Agéntico", "Sistemas Distribuidos", "Ciclo MLOps", "Control en Lazo Cerrado", "vLLM & Qdrant"],
+    "ctaExplore": "Explorar Sistemas en Producción ↘",
+    "ctaArchitecture": "Ciclo de IA en Producción ↘",
+    "ctaDownloadCV": "Descargar CV Ejecutivo (PDF)",
+    "ctaTalk": "Agendar Llamada Técnica ↗",
     "terminal": {
       "header": "sarta@core-system: ~/telemetria",
       "line1": "INICIALIZANDO AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "SUPERVISIÓN DE PLATAFORMAS CRÍTICAS (ALTA DISPONIBILIDAD)... [SINCRONIZADO]",
+      "line2": "SUPERVISIÓN DE PLATAFORMAS DE ALTA TRANSACCIONALIDAD (99.99% SLA)... [SINCRONIZADO]",
       "line3": "CARGANDO ORQUESTACIÓN MULTI-AGENTE & EVALUACIÓN... [ACTIVO]",
-      "line4": "SISTEMA LISTO: De sistemas confiables a inteligencia artificial confiable."
+      "line4": "SISTEMA LISTO: Rigor de Control Electrónico aplicado a IA en Producción."
     }
   },
   "whatIBuild": {
@@ -52,29 +52,29 @@
     "pillars": [
       {
         "id": "agents",
-        "title": "Agentes de IA & Flujos de Trabajo",
+        "title": "Agentes de IA & Flujos Multi-Agente",
         "badge": "IA AGÉNTICA",
-        "description": "Orquestación multi-agente autónoma, llamadas a herramientas (tool calling), enrutamiento semántico y RAG híbrido denso/disperso para dominios técnicos complejos.",
+        "description": "Orquestación multi-agente autónoma, llamadas a herramientas (tool calling), enrutamiento semántico y RAG híbrido denso/disperso (Qdrant + BM25) para dominios técnicos complejos.",
         "pills": ["Flujos Multi-Agente", "Llamada a Herramientas", "RAG Híbrido (Qdrant)", "vLLM / Ollama"]
       },
       {
         "id": "platforms",
-        "title": "Plataformas de IA & MLOps",
+        "title": "Plataformas de IA & MLOps en Producción",
         "badge": "INFRAESTRUCTURA",
-        "description": "Re-entrenamiento continuo, detección automatizada de data drift, marcos de evaluación de calidad y despliegues canarios de baja latencia sobre Kubernetes.",
+        "description": "Pipelines de re-entrenamiento continuo, detección automatizada de data drift, suites de evaluación de calidad y despliegues canarios de baja latencia sobre Kubernetes.",
         "pills": ["MLflow & DVC", "Detección de Drift", "Evaluación de IA", "Canarios Kubernetes"]
       },
       {
         "id": "automation",
-        "title": "Automatización Inteligente",
+        "title": "Operaciones Inteligentes & Automatización",
         "badge": "OPERACIONES",
-        "description": "Flujos de trabajo operativos de extremo a extremo impulsados por IA, arquitecturas orientadas a eventos e integraciones fluidas con APIs.",
+        "description": "Flujos de trabajo operativos de extremo a extremo impulsados por IA, backends reactivos orientados a eventos e integraciones fluidas con microservicios.",
         "pills": ["Core Orientado a Eventos", "FastAPI & AsyncIO", "Integración de APIs", "IA Operacional"]
       },
       {
         "id": "sre",
-        "title": "Software Confiable & SRE",
-        "badge": "ALTA DISPONIBILIDAD",
+        "title": "SRE en Sistemas de Misión Crítica",
+        "badge": "99.99% SLA",
         "description": "Gobernanza de estabilidad en plataformas con alto volumen de usuarios recurrentes, microservicios distribuidos, observabilidad OpenTelemetry y reducción de toil mediante automatización.",
         "pills": ["SRE Distribuido", "Observabilidad (OTel/Prom)", "Gestión de Incidentes", "Java / Python / C#"]
       }
@@ -87,33 +87,33 @@
     "cards": {
       "sre": {
         "badge": "MISIÓN CRÍTICA",
-        "title": "De Sistemas Confiables a IA Confiable",
-        "metric": "Alta Disp.",
-        "metricLabel": "Plataformas con Millones de Usuarios Recurrentes",
-        "description": "Como Service Reliability Lead (SRE), soy responsable de supervisar la estabilidad de la plataforma, impulsar la automatización y alinear la confiabilidad de la infraestructura con los objetivos de negocio en canales bancarios de alto tráfico (Net Cash, SENDA).",
-        "pills": ["Gobernanza SRE", "OpenTelemetry", "Ingeniería de Resiliencia", "Manejo de Incidentes"]
+        "title": "SRE & Escala de Misión Crítica",
+        "metric": "99.99% SLA",
+        "metricLabel": "Canales Bancarios con Millones de Usuarios Recurrentes",
+        "description": "Service Reliability Lead liderando la estabilidad y automatización de canales bancarios transaccionales (Net Cash, SENDA). Llevando la disciplina de sistemas distribuidos, despliegues zero-downtime y observabilidad a la IA en producción.",
+        "pills": ["Gobernanza SRE", "OpenTelemetry", "Zero-Downtime", "Manejo de Incidentes"]
       },
       "control": {
         "badge": "ADN DE INGENIERÍA",
-        "title": "Por Qué la Teoría de Control Importa para la IA",
+        "title": "ADN en Ingeniería de Control",
         "metric": "ADN Control",
-        "metricLabel": "Estabilidad & Realimentación Dinámica",
-        "description": "Ingeniero en Control Electrónico con bases en realimentación multivariable, estabilidad de Lyapunov y Redes Neuronales Informadas por la Física (PINNs) para acotar modelos probabilísticos.",
-        "pills": ["Control Multivariable", "Optimización PINNs", "Estabilidad Lyapunov", "Firmware Embebido"]
+        "metricLabel": "Estabilidad en Lazo Cerrado & Espacio de Estados",
+        "description": "Ingeniero en Control Electrónico con bases en realimentación multivariable, estabilidad de Lyapunov, modelos en espacio de estados, telemetría embebida y Redes Neuronales Informadas por la Física (PINNs) para garantizar cotas deterministas en modelos neurales.",
+        "pills": ["Control Multivariable", "Optimización PINNs", "Cotas Lyapunov", "Telemetría Embebida"]
       },
       "ai": {
         "badge": "ACADÉMICO & INVESTIGACIÓN",
-        "title": "Maestría en Inteligencia Artificial",
+        "title": "Núcleo de IA & Agentes (MSc UniAndes)",
         "metric": "UniAndes",
         "metricLabel": "Candidato (2025–2026)",
-        "description": "Especialización de posgrado en la Universidad de los Andes en deep learning, optimización matemática, sistemas multi-agente y ética aplicada en IA.",
+        "description": "Especialización de posgrado en la Universidad de los Andes en deep learning, optimización matemática, sistemas multi-agente y ética aplicada en IA en producción.",
         "pills": ["Deep Learning", "Sistemas Multi-Agente", "Optimización", "Ética en IA"]
       },
       "artifacts": {
-        "badge": "ARQUITECTURAS DE REFERENCIA",
+        "badge": "TELEMETRÍA EN VIVO GITHUB",
         "title": "Repositorios y Arquitecturas de Referencia",
         "metric": "8 Proyectos",
-        "metricLabel": "Seleccionados de 60+ Repositorios",
+        "metricLabel": "Repositorios Verificados en GitHub",
         "description": "Arquitecturas inspiradas en producción real: terminales agénticas offline, suites de re-entrenamiento continuo MLOps y optimizadores de lazos dinámicos de control.",
         "pills": ["Arquitectura Limpia", "Indexación AST", "Pipelines CI/CD", "Diseño Modular"]
       }
@@ -157,7 +157,7 @@
       {
         "step": "07",
         "title": "CONFIABILIDAD",
-        "desc": "Alta Disponibilidad, Recuperación de Fallos, Rate Limiting & Probes"
+        "desc": "SLA 99.99%, Recuperación de Fallos, Rate Limiting & Probes"
       }
     ]
   },
@@ -166,10 +166,10 @@
     "title": "Casos de Estudio de Ingeniería Seleccionados",
     "description": "Plataformas y sistemas reales diseñados con enfoque en escalabilidad, soberanía de datos y rigor matemático.",
     "filters": {
-      "all": "Todos los Casos",
-      "llm": "LLMs & Sistemas Agénticos",
-      "mlops": "MLOps & Infraestructura",
-      "control": "Control & IA Física"
+      "all": "#Todos",
+      "llm": "#LLMs-y-Agentes",
+      "mlops": "#MLOps-Produccion",
+      "control": "#Ingenieria-Control"
     },
     "clonePrompt": "Copiar Git Clone",
     "copied": "¡Copiado!",
@@ -273,7 +273,7 @@
         "domain": "Banca Digital & Canales Corporativos",
         "highlights": [
           "Liderazgo técnico senior responsable de supervisar la estabilidad de la plataforma, impulsar la automatización y alinear la confiabilidad con los objetivos de negocio.",
-          "Supervisión directa de la disponibilidad en canales corporativos críticos (Net Cash, SENDA) con millones de usuarios y operaciones recurrentes.",
+          "Supervisión directa de la disponibilidad con 99.99% SLA en canales corporativos críticos (Net Cash, SENDA) con millones de usuarios y operaciones recurrentes.",
           "Implementación de telemetría en tiempo real, observabilidad avanzada y reducción sistemática de incidentes operativos."
         ]
       },
@@ -319,27 +319,27 @@
     "title": "Abierto a Roles de Enfoque",
     "roles": [
       "AI Systems Engineer",
+      "Staff Technical Lead",
       "AI Platform Engineer",
       "AI Solutions Architect",
       "ML / AI Infrastructure Lead",
-      "SRE for AI Platforms",
-      "Staff Technical Lead"
+      "SRE for AI Platforms"
     ]
   },
   "recruiter": {
     "tag": "FAST-TRACK PARA RECLUTADORES",
-    "title": "Perfil Ejecutivo & CV en Un Clic",
-    "description": "Resumen técnico de alta densidad diseñado para Directores de Ingeniería, Staff Engineers y Reclutadores Técnicos.",
-    "openModalBtn": "Ver Resumen Ejecutivo",
-    "printCVBtn": "Imprimir / Exportar a PDF",
+    "title": "Informe Técnico Staff & CV",
+    "description": "Resumen técnico de alta densidad diseñado para Directores de Ingeniería, Staff Engineers y Reclutadores Técnicos en compañías Tier-1 de IA.",
+    "openModalBtn": "Ver Resumen Staff",
+    "printCVBtn": "Imprimir / Exportar PDF Staff",
     "copyEmailBtn": "Copiar Correo Directo",
-    "scheduleCall": "Hablemos de Sistemas de IA",
+    "scheduleCall": "Agendar Llamada Técnica ↗",
     "modal": {
-      "title": "Informe Técnico Ejecutivo",
-      "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | Candidato a Magíster en IA",
-      "summary": "Senior Technical Leader y AI Systems Engineer con más de 15 años de trayectoria. Combino la rigurosidad de la Ingeniería en Control Electrónico con la Inteligencia Artificial y el liderazgo SRE en plataformas financieras con millones de usuarios recurrentes. Especializado en estabilidad, automatización y confiabilidad en producción.",
+      "title": "Informe Técnico Ejecutivo Staff",
+      "subtitle": "José Luis Sarta Álvarez | Senior Software Expert & High-Throughput SRE Lead | Candidato a Magíster en IA",
+      "summary": "Senior Technical Leader y AI Systems Engineer con más de 15 años de trayectoria. Combino la rigurosidad de la Ingeniería en Control Electrónico con la Inteligencia Artificial de frontera y el liderazgo SRE en plataformas financieras de alta transaccionalidad (99.99% SLA). Especializado en sistemas distribuidos deterministas, RAG agéntico y confiabilidad en producción.",
       "metrics": [
-        { "value": "Alta Disp.", "label": "Plataformas Críticas" },
+        { "value": "99.99%", "label": "SLA Financiero Mantenido" },
         { "value": "15+ Años", "label": "Experiencia en Sistemas" },
         { "value": "MSc IA", "label": "UniAndes (2025–2026)" },
         { "value": "Ing.", "label": "Control Electrónico" }
@@ -366,8 +366,8 @@
       ],
       "skillsMatrix": {
         "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluación & Trazas",
-        "systems": "SRE Lead, Alta Disponibilidad, Automatización, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Control en Lazo Cerrado, PID/MPC, Estabilidad Lyapunov, MicroPython/C++, Cinemática & Telemetría"
+        "systems": "SRE Alta Transaccionalidad, 99.99% SLA, Automatización, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
+        "control": "Control en Lazo Cerrado, PID/MPC, Estabilidad Lyapunov, Espacio de Estados, Telemetría & Cinemática"
       },
       "directContact": {
         "email": "josarta@gmail.com",
@@ -381,13 +381,13 @@
   "contactCallout": {
     "title": "Construyamos algo confiable.",
     "subtitle": "Los sistemas de IA se están convirtiendo en sistemas de producción. Mi enfoque es hacerlos confiables, observables y escalables.",
-    "ctaTalk": "Hablemos de Sistemas de IA",
-    "ctaCV": "Descargar CV Ejecutivo",
+    "ctaTalk": "Agendar Llamada Técnica ↗",
+    "ctaCV": "Descargar CV Ejecutivo (PDF)",
     "ctaEmail": "Copiar Correo Directo"
   },
   "footer": {
     "status": "TELEMETRÍA DE SISTEMA: SERVICIOS OPERACIONALES",
-    "copyright": "© 2026 José Luis Sarta Álvarez. AI Systems Engineer · SRE · Intelligent Automation.",
+    "copyright": "© 2026 José Luis Sarta Álvarez. Senior Software Expert · SRE Lead · MSc IA · Electronic Control Engineer.",
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",

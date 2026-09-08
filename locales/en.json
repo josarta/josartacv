@@ -8,41 +8,41 @@
       "pipeline": "AI in Production",
       "experience": "Experience",
       "principles": "Principles",
-      "recruiter": "Fast-Track CV"
+      "recruiter": "Staff CV"
     },
-    "cta": "Contact",
+    "cta": "Schedule Call ↗",
     "langToggle": "ES",
     "status": "OPERATIONAL"
   },
   "hero": {
-    "statusIndicator": "AI SYSTEMS ENGINEERING • SRE LEAD • INTELLIGENT AUTOMATION",
+    "statusIndicator": "● AVAILABLE FOR TIER-1 AI ROLES • HIGH-THROUGHPUT MISSION-CRITICAL SRE • AGENTIC WORKFLOWS",
     "taglineConcept": "From Reliable Systems to Reliable AI.",
     "portrait": {
       "status": "ONLINE",
-      "sla": "HIGH AVAILABILITY",
+      "sla": "99.99% SLA",
       "degree": "MSc AI"
     },
     "telemetry": {
       "systemState": "STABLE",
-      "uptime": "High Avail.",
-      "latency": "Low Latency",
+      "uptime": "99.99% SLA",
+      "latency": "P99 < 12ms",
       "aiDomain": "MSc in AI @ UniAndes"
     },
-    "headlinePrefix": "Building",
-    "headlineHighlight": "AI Systems",
-    "headlineSuffix": "That Work in Production.",
-    "subheadline": "Senior SRE Lead & AI Systems Engineer. Overseeing platform stability for high-traffic financial systems, driving automation, and aligning infrastructure reliability with business goals — bridging Machine Learning, LLMs, agentic workflows, distributed telemetry, and production engineering rigor.",
-    "stackPills": ["AI Engineering", "LLMs & Agents", "Hybrid RAG", "MLOps", "Distributed SRE", "Control Systems"],
-    "ctaExplore": "Explore My AI Work",
-    "ctaArchitecture": "View Architecture",
-    "ctaDownloadCV": "Download CV",
-    "ctaTalk": "Let's talk about AI Systems",
+    "headlinePrefix": "Bridging",
+    "headlineHighlight": "Control Systems Rigor",
+    "headlineSuffix": "with High-Throughput AI in Production.",
+    "subheadline": "Senior Software Expert & SRE Lead specializing in high-throughput, mission-critical financial applications (99.99% SLA). Combining an Electronic Control Engineering foundation with an MSc in Artificial Intelligence to architect deterministic distributed systems, low-latency agentic RAG pipelines, and resilient production AI infrastructure.",
+    "stackPills": ["High-Throughput SRE", "Agentic RAG", "Distributed Systems", "MLOps Lifecycle", "Closed-Loop Control", "vLLM & Qdrant"],
+    "ctaExplore": "Explore Production Systems ↘",
+    "ctaArchitecture": "AI in Production Lifecycle ↘",
+    "ctaDownloadCV": "Download Staff CV (PDF)",
+    "ctaTalk": "Schedule Technical Call ↗",
     "terminal": {
       "header": "sarta@core-system: ~/telemetry",
       "line1": "INITIALIZING AI_SYSTEMS_CORE v3.0... [OK]",
-      "line2": "MONITORING CRITICAL PLATFORMS (HIGH AVAILABILITY)... [SYNCHRONIZED]",
+      "line2": "MONITORING MISSION-CRITICAL PLATFORMS (99.99% SLA)... [SYNCHRONIZED]",
       "line3": "LOADING MULTI-AGENT ORCHESTRATION & EVALUATION PIPELINES... [ACTIVE]",
-      "line4": "SYSTEM READY: From reliable systems to reliable AI."
+      "line4": "SYSTEM READY: Bridging Control Systems Rigor with High-Throughput AI."
     }
   },
   "whatIBuild": {
@@ -52,29 +52,29 @@
     "pillars": [
       {
         "id": "agents",
-        "title": "AI Agents & Workflows",
+        "title": "AI Agents & Multi-Agent Workflows",
         "badge": "AGENTIC AI",
-        "description": "Autonomous multi-agent orchestration, tool calling, semantic routing, and hybrid dense/sparse RAG for complex technical domains.",
+        "description": "Autonomous multi-agent orchestration, tool calling, semantic routing, and hybrid dense/sparse RAG (Qdrant + BM25) for complex technical domains.",
         "pills": ["Multi-Agent Workflows", "Tool Calling", "Hybrid RAG (Qdrant)", "vLLM / Ollama"]
       },
       {
         "id": "platforms",
-        "title": "AI Platforms & MLOps",
+        "title": "AI Platforms & MLOps Infrastructure",
         "badge": "PRODUCTION INFRA",
-        "description": "Continuous training, automated drift detection, model evaluation, and low-latency inference deployment on Kubernetes.",
+        "description": "Continuous training pipelines, automated drift detection, model evaluation suites, and low-latency canary deployments on Kubernetes.",
         "pills": ["MLflow & DVC", "Drift Detection", "AI Evaluation", "Kubernetes Canaries"]
       },
       {
         "id": "automation",
-        "title": "Intelligent Automation",
+        "title": "Intelligent Operations & Automation",
         "badge": "OPERATIONS",
-        "description": "End-to-end AI-powered operational workflows, event-driven pipelines, and seamless API integrations.",
+        "description": "End-to-end AI-powered operational workflows, event-driven reactive backends, and low-latency microservice integrations.",
         "pills": ["Event-Driven Core", "FastAPI & AsyncIO", "API Integrations", "Operational AI"]
       },
       {
         "id": "sre",
-        "title": "Reliable Software & SRE",
-        "badge": "HIGH AVAILABILITY",
+        "title": "High-Throughput Mission-Critical SRE",
+        "badge": "99.99% SLA",
         "description": "Platform stability governance for high-concurrency systems, distributed microservices, OpenTelemetry observability, and automated toil reduction.",
         "pills": ["Distributed SRE", "Observability (OTel/Prom)", "Incident Governance", "Java / Python / C#"]
       }
@@ -87,33 +87,33 @@
     "cards": {
       "sre": {
         "badge": "MISSION CRITICAL",
-        "title": "From Reliable Systems to Reliable AI",
-        "metric": "High Avail.",
-        "metricLabel": "Platforms Serving Millions of Recurring Users",
-        "description": "As a Service Reliability Lead (SRE), I am responsible for overseeing platform stability, driving automation, and aligning infrastructure reliability with business goals across high-traffic digital banking channels (Net Cash, SENDA).",
-        "pills": ["SRE Governance", "OpenTelemetry", "Resilience Engineering", "Incident Management"]
+        "title": "SRE & Mission-Critical Scale",
+        "metric": "99.99% SLA",
+        "metricLabel": "Financial Platforms Serving Millions of Recurring Users",
+        "description": "Service Reliability Lead governing high-throughput banking channels (Net Cash, SENDA). Applying distributed systems discipline, zero-downtime rollouts, and OpenTelemetry observability to production AI workloads.",
+        "pills": ["SRE Governance", "OpenTelemetry", "Zero-Downtime", "Incident Management"]
       },
       "control": {
         "badge": "ENGINEERING DNA",
-        "title": "Why Control Theory Matters for AI",
+        "title": "Control Engineering DNA",
         "metric": "Control DNA",
-        "metricLabel": "Stability & Dynamic Feedback",
-        "description": "Electronic Control Engineer grounded in multivariable feedback, Lyapunov stability, and Physics-Informed Neural Networks (PINNs) ensuring safe boundaries for probabilistic models.",
-        "pills": ["Multivariable Feedback", "PINNs Optimization", "Lyapunov Stability", "Embedded Firmware"]
+        "metricLabel": "Closed-Loop Stability & State-Space",
+        "description": "Electronic Control Engineer grounded in multivariable feedback, Lyapunov stability, state-space modeling, embedded telemetry, and Physics-Informed Neural Networks (PINNs) to guarantee deterministic bounds on neural models.",
+        "pills": ["Multivariable Feedback", "PINNs Optimization", "Lyapunov Bounds", "Embedded Telemetry"]
       },
       "ai": {
         "badge": "ACADEMIC & RESEARCH",
-        "title": "MSc in Artificial Intelligence",
+        "title": "AI & Multi-Agent Core (MSc UniAndes)",
         "metric": "UniAndes",
         "metricLabel": "Candidate (2025–2026)",
-        "description": "Advanced graduate specialization at Universidad de los Andes focusing on deep learning, mathematical optimization, multi-agent systems, and AI ethics.",
+        "description": "Advanced graduate specialization at Universidad de los Andes focusing on deep learning, mathematical optimization, multi-agent systems, and production AI ethics.",
         "pills": ["Deep Learning", "Multi-Agent Systems", "Optimization", "AI Ethics"]
       },
       "artifacts": {
-        "badge": "REFERENCE ARCHITECTURES",
+        "badge": "LIVE GITHUB TELEMETRY",
         "title": "Reference Architectures & Codebases",
         "metric": "8 Selected",
-        "metricLabel": "Selected from 60+ Repositories",
+        "metricLabel": "Verified Repositories on GitHub",
         "description": "Production-inspired architectures: autonomous agent terminals, automated MLOps retraining suites, and real-time dynamic control optimizers.",
         "pills": ["Clean Architecture", "AST Code Indexing", "CI/CD Pipelines", "Modular Design"]
       }
@@ -157,7 +157,7 @@
       {
         "step": "07",
         "title": "RELIABILITY",
-        "desc": "High Availability, Fault Recovery, Rate Limiting & Health Probes"
+        "desc": "99.99% SLA, Fault Recovery, Rate Limiting & Health Probes"
       }
     ]
   },
@@ -166,10 +166,10 @@
     "title": "Selected Engineering Case Studies",
     "description": "Production-grade platforms and systems engineered for scalability, privacy, and mathematical rigor.",
     "filters": {
-      "all": "All Case Studies",
-      "llm": "LLMs & Agentic Systems",
-      "mlops": "MLOps & Infra",
-      "control": "Control & Physics AI"
+      "all": "#All",
+      "llm": "#LLMs-and-Agents",
+      "mlops": "#MLOps-Production",
+      "control": "#Control-Engineering"
     },
     "clonePrompt": "Copy Git Clone",
     "copied": "Copied!",
@@ -273,7 +273,7 @@
         "domain": "Digital Banking & Corporate Channels",
         "highlights": [
           "Senior technical leader responsible for overseeing platform stability, driving automation, and aligning infrastructure reliability with business goals.",
-          "Direct availability leadership over mission-critical corporate financial channels (Net Cash, SENDA) serving millions of recurring users.",
+          "Direct 99.99% SLA availability leadership over mission-critical corporate financial channels (Net Cash, SENDA) serving millions of recurring users.",
           "Engineered real-time telemetry, advanced observability pipelines, and automated incident prevention frameworks."
         ]
       },
@@ -319,30 +319,30 @@
     "title": "Open to Target Roles",
     "roles": [
       "AI Systems Engineer",
+      "Staff Technical Lead",
       "AI Platform Engineer",
       "AI Solutions Architect",
       "ML / AI Infrastructure Lead",
-      "SRE for AI Platforms",
-      "Staff Technical Lead"
+      "SRE for AI Platforms"
     ]
   },
   "recruiter": {
     "tag": "RECRUITER FAST-TRACK",
-    "title": "Executive Summary & One-Click CV",
-    "description": "High-density technical briefing engineered for Hiring Managers, Directors, and Technical Recruiters.",
-    "openModalBtn": "Launch Executive Overview",
-    "printCVBtn": "Print / Export PDF",
+    "title": "Staff Technical Briefing & CV",
+    "description": "High-density technical briefing engineered for Hiring Managers, Directors, and Technical Recruiters at Tier-1 AI Companies.",
+    "openModalBtn": "Launch Staff Overview",
+    "printCVBtn": "Print / Export Staff PDF",
     "copyEmailBtn": "Copy Direct Email",
-    "scheduleCall": "Let's talk about AI Systems",
+    "scheduleCall": "Schedule Technical Call ↗",
     "modal": {
-      "title": "Executive Technical Briefing",
-      "subtitle": "José Luis Sarta Álvarez | AI Systems Engineer & SRE Lead | MSc in AI Candidate",
-      "summary": "Senior Technical Leader and AI Systems Engineer with 15+ years of experience. Uniquely combining Electronic Control Engineering rigor with Frontier AI and SRE leadership across financial platforms serving millions of recurring users. Specialized in platform stability, automation, and production reliability.",
+      "title": "Staff Technical Briefing",
+      "subtitle": "José Luis Sarta Álvarez | Senior Software Expert & High-Throughput SRE Lead | MSc in AI Candidate",
+      "summary": "15+ years of software and systems engineering excellence, uniquely bridging Electronic Control & Instrumentation with Frontier Artificial Intelligence and high-throughput financial SRE (99.99% SLA). Specialized in deterministic distributed systems, agentic RAG, and production platform reliability.",
       "metrics": [
-        { "value": "High Avail.", "label": "Mission-Critical Systems" },
-        { "value": "15+ Yrs", "label": "Software & Systems Experience" },
+        { "value": "99.99%", "label": "Financial SLA Maintained" },
+        { "value": "15+ Yrs", "label": "Systems Experience" },
         { "value": "MSc AI", "label": "UniAndes (2025–2026)" },
-        { "value": "Eng.", "label": "Electronic Control & Automation" }
+        { "value": "Eng.", "label": "Electronic Control" }
       ],
       "education": [
         {
@@ -366,8 +366,8 @@
       ],
       "skillsMatrix": {
         "ai": "PyTorch, Agentic RAG, LangChain, LlamaIndex, Transformers, vLLM, Qdrant, PINNs, Evaluation & Tracing",
-        "systems": "SRE Lead, High Availability, Automation, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
-        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, MicroPython/C++, Kinematics & Telemetry"
+        "systems": "High-Throughput SRE, 99.99% SLA, Java/Spring, Python, C#, Docker, Kubernetes, Kafka, OpenTelemetry",
+        "control": "Closed-Loop Control, PID/MPC, Lyapunov Stability, State-Space, Embedded Telemetry & Kinematics"
       },
       "directContact": {
         "email": "josarta@gmail.com",
@@ -381,13 +381,13 @@
   "contactCallout": {
     "title": "Let's build something reliable.",
     "subtitle": "AI systems are becoming production systems. I care about making them reliable, observable, and scalable.",
-    "ctaTalk": "Let's talk about AI Systems",
-    "ctaCV": "Download Executive CV",
+    "ctaTalk": "Schedule Technical Call ↗",
+    "ctaCV": "Download Staff CV (PDF)",
     "ctaEmail": "Copy Direct Email"
   },
   "footer": {
     "status": "SYSTEM TELEMETRY: ALL SERVICES HEALTHY",
-    "copyright": "© 2026 José Luis Sarta Álvarez. AI Systems Engineer · SRE · Intelligent Automation.",
+    "copyright": "© 2026 José Luis Sarta Álvarez. Senior Software Expert · SRE Lead · MSc AI · Electronic Control Engineer.",
     "links": {
       "github": "GitHub",
       "linkedin": "LinkedIn",
