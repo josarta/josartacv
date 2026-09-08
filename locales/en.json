@@ -28,13 +28,25 @@
     "headline": "I build <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">AI systems that reach production</span> and deliver real impact.",
     "roleTagline": "Senior Software Engineer · AI/ML · Systems Architecture · SRE",
     "subheadline": "I design and lead software and artificial intelligence solutions for systems where reliability, scalability, and business impact matter.<br><br>I bridge software engineering, AI, and architecture to turn complex problems into products and platforms that operate safely and sustainably in production.",
-    "stackPills": [
-      "PyTorch",
-      "TensorFlow",
-      "Scikit-learn",
-      "LLM Engineering",
-      "RAG Architectures",
-      "Docker & FastAPI"
+    "techGroups": [
+      {
+        "category": "AI / ML",
+        "items": "LLM · RAG · Deep Learning · NLP"
+      },
+      {
+        "category": "Engineering",
+        "items": "Python · FastAPI · Distributed Systems"
+      },
+      {
+        "category": "Production",
+        "items": "Docker · Kubernetes · MLOps · Cloud"
+      }
+    ],
+    "metrics": [
+      { "value": "15+", "label": "Years Building Software" },
+      { "value": "AI/ML", "label": "Specialization" },
+      { "value": "Production", "label": "Systems" },
+      { "value": "SRE", "label": "Mindset" }
     ],
     "ctaExplore": "Explore Case Studies ↘",
     "ctaDownloadCV": "Download Staff CV (PDF)",
@@ -81,29 +93,6 @@
         "pills": ["Distributed SRE", "Observability (OTel/Prom)", "Incident Governance", "Java / Python / C#"]
       }
     ]
-  },
-  "bento": {
-    "tag": "MY ENGINEERING PERSPECTIVE",
-    "title": "Turning AI Uncertainty into Systems People Can Truly Rely On",
-    "description": "AI models are inherently probabilistic and dynamic; electronic control taught me the discipline of never leaving critical outcomes to chance. Throughout my career, I’ve specialized in wrapping safe, deterministic boundaries around uncertainty—turning advanced algorithms into resilient, ethical systems people can trust every day.",
-    "cards": {
-      "ai": {
-        "badge": "ACADEMIC & RESEARCH",
-        "title": "AI & Multi-Agent Core (MSc UniAndes)",
-        "metric": "UniAndes",
-        "metricLabel": "Master's Candidate (2025–2026)",
-        "description": "Advanced graduate specialization at Universidad de los Andes focusing on deep learning, mathematical optimization, multi-agent systems, and production AI ethics.",
-        "pills": ["Deep Learning", "Multi-Agent Systems", "Optimization", "AI Ethics"]
-      },
-      "artifacts": {
-        "badge": "LIVE GITHUB TELEMETRY",
-        "title": "Reference Architectures & Codebases",
-        "metric": "8 Selected",
-        "metricLabel": "Verified Repositories on GitHub",
-        "description": "Production-inspired architectures: autonomous agent terminals, automated MLOps retraining suites, and real-time dynamic control optimizers.",
-        "pills": ["Clean Architecture", "AST Code Indexing", "CI/CD Pipelines", "Modular Design"]
-      }
-    }
   },
   "projects": {
     "tag": "FROM RESEARCH TO PRODUCTION",

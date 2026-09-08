@@ -28,15 +28,27 @@
     "headline": "Construyo sistemas de <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">IA que llegan a producción</span> y generan impacto real.",
     "roleTagline": "Senior Software Engineer · AI/ML · Arquitectura de sistemas · SRE",
     "subheadline": "Diseño y lidero soluciones de software e inteligencia artificial para sistemas donde la confiabilidad, la escalabilidad y el impacto de negocio importan.<br><br>Combino ingeniería de software, IA y arquitectura para convertir problemas complejos en productos y plataformas que pueden operar de forma segura y sostenible en producción.",
-    "stackPills": [
-      "PyTorch",
-      "TensorFlow",
-      "Scikit-learn",
-      "Habilidades en LLM",
-      "Arquitecturas RAG",
-      "Docker y FastAPI"
+    "techGroups": [
+      {
+        "category": "AI / ML",
+        "items": "LLM · RAG · Deep Learning · NLP"
+      },
+      {
+        "category": "Engineering",
+        "items": "Python · FastAPI · Distributed Systems"
+      },
+      {
+        "category": "Production",
+        "items": "Docker · Kubernetes · MLOps · Cloud"
+      }
     ],
-    "ctaExplore": "Explorar Arquitecturas ↘",
+    "metrics": [
+      { "value": "15+", "label": "Años construyendo software" },
+      { "value": "AI/ML", "label": "Especialización" },
+      { "value": "Production", "label": "Systems" },
+      { "value": "SRE", "label": "Mindset" }
+    ],
+    "ctaExplore": "Explorar Casos de Estudio ↘",
     "ctaDownloadCV": "Descargar CV Ejecutivo (PDF)",
     "ctaTalk": "Agendar Llamada Técnica ↗",
     "terminal": {
@@ -81,29 +93,6 @@
         "pills": ["SRE Distribuido", "Observabilidad (OTel/Prom)", "Gestión de Incidentes", "Java / Python / C#"]
       }
     ]
-  },
-  "bento": {
-    "tag": "MI ENFOQUE PROFESIONAL",
-    "title": "Transformar la Incertidumbre de la IA en Confianza para las Personas",
-    "description": "Los modelos de IA son por naturaleza probabilísticos y cambiantes; la ingeniería de control me enseñó la disciplina de no dejar nada al azar. En mi carrera he aprendido a poner límites seguros a esa incertidumbre, transformando algoritmos avanzados en soluciones estables, éticas y tranquilas para quienes dependen de ellas a diario.",
-    "cards": {
-      "ai": {
-        "badge": "ACADÉMICO & INVESTIGACIÓN",
-        "title": "Núcleo de IA & Agentes (MSc UniAndes)",
-        "metric": "UniAndes",
-        "metricLabel": "Candidato a Magíster (2025–2026)",
-        "description": "Especialización de posgrado en la Universidad de los Andes en deep learning, optimización matemática, sistemas multi-agente y ética aplicada en IA en producción.",
-        "pills": ["Deep Learning", "Sistemas Multi-Agente", "Optimización", "Ética en IA"]
-      },
-      "artifacts": {
-        "badge": "TELEMETRÍA EN VIVO GITHUB",
-        "title": "Repositorios y Arquitecturas de Referencia",
-        "metric": "8 Proyectos",
-        "metricLabel": "Repositorios Verificados en GitHub",
-        "description": "Arquitecturas inspiradas en producción real: terminales agénticas offline, suites de re-entrenamiento continuo MLOps y optimizadores de lazos dinámicos de control.",
-        "pills": ["Arquitectura Limpia", "Indexación AST", "Pipelines CI/CD", "Diseño Modular"]
-      }
-    }
   },
   "projects": {
     "tag": "DE LA INVESTIGACIÓN AL IMPACTO REAL",

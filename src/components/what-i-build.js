@@ -1,6 +1,6 @@
 /**
  * Content Sections Controller
- * Renders core pillars, open-to roles, and dynamic hero stack pills.
+ * Renders core pillars, open-to roles, and dynamic hero tech groups & metrics.
  */
 
 export class ContentSectionsController {
@@ -8,7 +8,8 @@ export class ContentSectionsController {
     this.i18n = i18nManager;
     this.pillarsContainer = document.getElementById('pillars-grid');
     this.openToContainer = document.getElementById('opento-grid');
-    this.heroStackContainer = document.getElementById('hero-stack-pills');
+    this.heroTechContainer = document.getElementById('hero-tech-groups');
+    this.heroMetricsContainer = document.getElementById('hero-metrics-bar');
 
     this.init();
   }
@@ -21,20 +22,35 @@ export class ContentSectionsController {
   }
 
   render() {
-    this.renderHeroStack();
+    this.renderHeroTechGroups();
+    this.renderHeroMetrics();
     this.renderPillars();
     this.renderOpenTo();
   }
 
-  renderHeroStack() {
-    if (!this.heroStackContainer) return;
-    const stack = this.i18n.t('hero.stackPills');
-    if (!Array.isArray(stack)) return;
+  renderHeroTechGroups() {
+    if (!this.heroTechContainer) return;
+    const groups = this.i18n.t('hero.techGroups');
+    if (!Array.isArray(groups)) return;
 
-    this.heroStackContainer.innerHTML = stack.map(pill => `
-      <span class="px-2.5 py-1 text-[11px] font-mono bg-zinc-900/80 text-zinc-300 rounded-md border border-zinc-800 shadow-sm">
-        ${pill}
-      </span>
+    this.heroTechContainer.innerHTML = groups.map(g => `
+      <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-zinc-900/90 border border-zinc-800/80 font-mono text-xs shadow-sm">
+        <span class="text-emerald-400 font-bold tracking-tight">${g.category}:</span>
+        <span class="text-zinc-300">${g.items}</span>
+      </div>
+    `).join('');
+  }
+
+  renderHeroMetrics() {
+    if (!this.heroMetricsContainer) return;
+    const metrics = this.i18n.t('hero.metrics');
+    if (!Array.isArray(metrics)) return;
+
+    this.heroMetricsContainer.innerHTML = metrics.map(m => `
+      <div class="flex flex-col p-3 rounded-xl bg-zinc-950/80 border border-white/5 font-mono">
+        <span class="text-xl sm:text-2xl font-extrabold text-emerald-400 tracking-tight">${m.value}</span>
+        <span class="text-[11px] text-zinc-400 uppercase tracking-wider mt-0.5">${m.label}</span>
+      </div>
     `).join('');
   }
 
