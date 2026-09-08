@@ -16,17 +16,18 @@
     "statusIndicator": "● SOFTWARE ENGINEER • CYCLING ENTHUSIAST • COFFEE ADDICT",
     "taglineConcept": "From Reliable Systems to Reliable AI.",
     "portrait": {
-      "status": "ONLINE",
-      "sla": "99.99% SLA",
-      "degree": "MSc AI"
+      "status": "AVAILABLE",
+      "role": "Senior Software Engineer",
+      "stack": "AI · CLOUD · ARCHITECTURE"
     },
     "telemetry": {
       "systemState": "PRODUCTION READY",
       "uptime": "HIGH AVAILABILITY",
       "core": "Control & AI Systems"
     },
-    "headline": "My goal was never just to prove I can write code, but to demonstrate how to transform <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">Artificial Intelligence</span> into measurable business impact, high availability, and tangible production ROI.",
-    "subheadline": "Senior Software Expert & SRE Lead specializing in high-throughput mission-critical systems, holding an MSc in AI and an Electronic Control Engineering degree. I master the full lifecycle of Deep Learning and GenAI—orchestrating models with PyTorch, TensorFlow, RAG pipelines with LangChain/LlamaIndex, and enterprise MLOps across Kubernetes and MLflow. My core differentiator lies in bridging mathematical rigor and robust engineering with real-world purpose: leading teams with empathy and architecting ethical, transparent, and reliable AI systems that create a positive, tangible impact for people.",
+    "headline": "I build <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">AI systems that reach production</span> and deliver real impact.",
+    "roleTagline": "Senior Software Engineer · AI/ML · Systems Architecture · SRE",
+    "subheadline": "I design and lead software and artificial intelligence solutions for systems where reliability, scalability, and business impact matter.<br><br>I bridge software engineering, AI, and architecture to turn complex problems into products and platforms that operate safely and sustainably in production.",
     "stackPills": [
       "PyTorch",
       "TensorFlow",

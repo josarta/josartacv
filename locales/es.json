@@ -16,17 +16,18 @@
     "statusIndicator": "● SOFTWARE ENGINEER • ME GUSTA MANEJAR MI BICICLETA • ADICTO AL CAFÉ",
     "taglineConcept": "De Sistemas Confiables a IA Confiable.",
     "portrait": {
-      "status": "ONLINE",
-      "sla": "99.99% SLA",
-      "degree": "MSc IA"
+      "status": "AVAILABLE",
+      "role": "Senior Software Engineer",
+      "stack": "AI · CLOUD · ARCHITECTURE"
     },
     "telemetry": {
       "systemState": "PRODUCTION READY",
       "uptime": "HIGH AVAILABILITY",
       "core": "Control & AI Systems"
     },
-    "headline": "Mi objetivo nunca fue simplemente demostrar que sé escribir código, sino evidenciar cómo transformar la <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">Inteligencia Artificial</span> en impacto medible de negocio, alta disponibilidad y retorno tangible en producción.",
-    "subheadline": "Senior Software Expert & SRE Lead especializado en sistemas críticos de alta transaccionalidad, con maestría en IA e ingeniería en control electrónico. Domino el ciclo de vida completo de Deep Learning y GenAI—orquestando modelos con PyTorch, TensorFlow, pipelines RAG con LangChain/LlamaIndex y MLOps empresarial en Kubernetes y MLflow. Mi valor diferencial reside en conectar el rigor matemático y la ingeniería robusta con un propósito real: liderar equipos con empatía y diseñar arquitecturas de IA éticas, transparentes y confiables que generen un impacto positivo y tangible en las personas.",
+    "headline": "Construyo sistemas de <span class=\"text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400\">IA que llegan a producción</span> y generan impacto real.",
+    "roleTagline": "Senior Software Engineer · AI/ML · Arquitectura de sistemas · SRE",
+    "subheadline": "Diseño y lidero soluciones de software e inteligencia artificial para sistemas donde la confiabilidad, la escalabilidad y el impacto de negocio importan.<br><br>Combino ingeniería de software, IA y arquitectura para convertir problemas complejos en productos y plataformas que pueden operar de forma segura y sostenible en producción.",
     "stackPills": [
       "PyTorch",
       "TensorFlow",
