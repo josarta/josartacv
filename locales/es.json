@@ -3,7 +3,7 @@
     "title": "José Sarta",
     "badge": "AI Systems & SRE",
     "links": {
-      "whatIBuild": "Qué Construyo",
+      "whatIBuild": "Plataformas & IA",
       "architecture": "Casos de Estudio",
       "pipeline": "IA en Producción",
       "experience": "Experiencia",
@@ -46,9 +46,9 @@
     }
   },
   "whatIBuild": {
-    "tag": "ESPECIALIZACIÓN CENTRAL",
-    "title": "Qué Construyo",
-    "description": "Uniendo el ciclo completo de ingeniería de software con inteligencia artificial de vanguardia y confiabilidad operativa.",
+    "tag": "PILARES DE INGENIERÍA & SRE",
+    "title": "Plataformas, Automatización e IA",
+    "description": "Supervisión de estabilidad, reducción de carga operativa y despliegue de modelos de inteligencia artificial con guardrails deterministas.",
     "pillars": [
       {
         "id": "agents",

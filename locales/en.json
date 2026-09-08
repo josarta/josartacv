@@ -3,7 +3,7 @@
     "title": "José Sarta",
     "badge": "AI Systems & SRE",
     "links": {
-      "whatIBuild": "What I Build",
+      "whatIBuild": "Platforms & AI",
       "architecture": "Case Studies",
       "pipeline": "AI in Production",
       "experience": "Experience",
@@ -46,9 +46,9 @@
     }
   },
   "whatIBuild": {
-    "tag": "CORE SPECIALIZATION",
-    "title": "What I Build",
-    "description": "Bridging full-lifecycle software engineering with modern artificial intelligence and operational reliability.",
+    "tag": "ENGINEERING PILLARS & SRE",
+    "title": "Platforms, Automation & AI",
+    "description": "Overseeing platform stability, automating operational toil, and deploying AI models backed by deterministic guardrails.",
     "pillars": [
       {
         "id": "agents",
